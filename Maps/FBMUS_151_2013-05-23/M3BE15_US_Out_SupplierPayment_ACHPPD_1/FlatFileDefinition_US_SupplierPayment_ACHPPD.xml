@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Version Log
+=============================================================
+Version 1 - Initial version for M3 BE 14
+=============================================================
+-->
+
+<BankRepository>
+  <Files>
+    <File>
+      <ID>ACHPPD_BankTransfer_FlatFileDefinition</ID>
+      <Messages>
+        <Message>
+          <IgnorePrecedingFieldSeparator>1</IgnorePrecedingFieldSeparator>
+          <Name>ACHPPD_BankTransfer Type</Name>
+          <TagName>ACHPPD_BankTransfer</TagName>
+          <DefaultAlignment>
+            <Numeric>RIGHT</Numeric>
+            <Alpha>LEFT</Alpha>
+          </DefaultAlignment>
+          <DefaultPadding>
+            <Numeric>0</Numeric>
+            <Alpha> </Alpha>
+          </DefaultPadding>
+          <DefaultTrim>
+            <Numeric>1</Numeric>
+            <Alpha>0</Alpha>
+          </DefaultTrim>
+          <DefaultEmptyFieldValue>
+            <Numeric>0</Numeric>
+            <Alpha> </Alpha>
+          </DefaultEmptyFieldValue>
+          <RecordSeparator>newline</RecordSeparator>
+          <Records>
+            <Record>
+              <Name>Header</Name>
+              <TagName>Header</TagName>
+              <MinOccur>1</MinOccur>
+              <MaxOccur>1</MaxOccur>
+              <Fields>
+                <Field>
+                  <Name>Record type</Name>
+                  <TagName>RecordType</TagName>
+                  <DataType>Alpha</DataType>
+                  <Length>1</Length>
+                  <StartPos>1</StartPos>
+                  <DefaultValue>1</DefaultValue>
+                  <Identifier>1</Identifier>
+                </Field>
+                <Field>
+                  <Name>Priority Code</Name>
+                  <TagName>PriorityCode</TagName>
+                  <DataType>Numeric</DataType>
+                  <Length>2</Length>
+                  <StartPos>2</StartPos>
+                  <DefaultValue>01</DefaultValue>
+                  <Identifier>1</Identifier>
+                </Field>
+                <Field>
+                  <Name>Immediate Destination</Name>
+                  <TagName>ImmediateDestination</TagName>
+                  <DataType>Alpha</DataType>
+                  <Length>10</Length>
+                  <StartPos>4</StartPos>
+                </Field>
+                <Field>
+                  <Name>Immediate Origin</Name>
+                  <TagName>ImmediateOrigin</TagName>
+                  <DataType>Alpha</DataType>
+                  <Length>10</Length>
+                  <StartPos>14</StartPos>
+                </Field>
+                <Field>
+                  <Name>File Creation Date</Name>
+                  <TagName>FileCreationDate</TagName>
+                  <DataType>Numeric</DataType>
+                  <Length>6</Length>
+                  <StartPos>24</StartPos>
+                </Field>
+                <Field>
+                  <Name>File Creation Time</Name>
+                  <TagName>FileCreationTime</TagName>
+                  <DataType>Numeric</DataType>
+                  <Length>4</Length>
+                  <StartPos>30</StartPos>
+                </Field>
+                <Field>
+                  <Name>File Id Modifier</Name>
+                  <TagName>FileIdModifier</TagName>
+                  <DataType>Alpha</DataType>
+                  <Length>1</Length>
+                  <StartPos>34</StartPos>
+                </Field>
+                <Field>
+                  <Name>Record Size</Name>
+                  <TagName>RecordSize</TagName>
+                  <DataType>Numeric</DataType>
+                  <Length>3</Length>
+                  <StartPos>35</StartPos>
+                </Field>
+                <Field>
+                  <Name>Blocking Factor</Name>
+                  <TagName>BlockingFactor</TagName>
+                  <DataType>Numeric</DataType>
+                  <Length>2</Length>
+                  <StartPos>38</StartPos>
+                </Field>
+                <Field>
+                  <Name>Format Code</Name>
+                  <TagName>FormatCode</TagName>
+                  <DataType>Numeric</DataType>
+                  <Length>1</Length>
+                  <StartPos>40</StartPos>
+                </Field>
+                <Field>
+                  <Name>Immediate Destination Name</Name>
+                  <TagName>ImmediateDestinationName</TagName>
+                  <DataType>Alpha</DataType>
+                  <Length>23</Length>
+                  <StartPos>41</StartPos>
+                </Field>
+                <Field>
+                  <Name>Immediate Origin Name</Name>
+                  <TagName>ImmediateOriginName</TagName>
+                  <DataType>Alpha</DataType>
+                  <Length>23</Length>
+                  <StartPos>64</StartPos>
+                </Field>
+                <Field>
+                  <Name>Reference Code</Name>
+                  <TagName>ReferenceCode</TagName>
+                  <DataType>Alpha</DataType>
+                  <Length>8</Length>
+                  <StartPos>87</StartPos>
+                </Field>
+              </Fields>
+            </Record>
+          </Records>
+          <Group>
+            <Name>Group name</Name>
+            <TagName>Batch</TagName>
+            <MinOccur>1</MinOccur>
+            <MaxOccur>0</MaxOccur>
+            <Records>
+              <Record>
+                <Name>Company/Batch Header</Name>
+                <TagName>CompanyBatchHeader</TagName>
+                <MinOccur>1</MinOccur>
+                <MaxOccur>1</MaxOccur>
+                <Fields>
+                  <Field>
+                    <Name>Record Type Code</Name>
+                    <TagName>RecordTypeCode</TagName>
+                    <DataType>Numeric</DataType>
+                    <Length>1</Length>
+                    <StartPos>1</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Service Class Code</Name>
+                    <TagName>ServiceClassCode</TagName>
+                    <DataType>Numeric</DataType>
+                    <Length>3</Length>
+                    <StartPos>2</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Company Name</Name>
+                    <TagName>CompanyName</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>16</Length>
+                    <StartPos>5</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Company Discertionary</Name>
+                    <TagName>CompanyDiscertionary</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>20</Length>
+                    <StartPos>21</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Company Identification</Name>
+                    <TagName>CompanyIdentification</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>10</Length>
+                    <StartPos>41</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Standard Entry Class</Name>
+                    <TagName>StandardEntryClass</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>3</Length>
+                    <StartPos>51</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Company Entry Description</Name>
+                    <TagName>CompanyEntryDescription</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>10</Length>
+                    <StartPos>54</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Company Descriptive</Name>
+                    <TagName>CompanyDescriptive</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>6</Length>
+                    <StartPos>64</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Effective Entry Date</Name>
+                    <TagName>EffectiveEntryDate</TagName>
+                    <DataType>Numeric</DataType>
+                    <Length>6</Length>
+                    <StartPos>70</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Settlement Date</Name>
+                    <TagName>SettlementDate</TagName>
+                    <DataType>Numeric</DataType>
+                    <PaddingChar> </PaddingChar>
+                    <Length>3</Length>
+                    <StartPos>76</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Originator Status Code</Name>
+                    <TagName>OriginatorStatusCode</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>1</Length>
+                    <StartPos>79</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Originating DFI ID</Name>
+                    <TagName>OriginatingDFIID</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>8</Length>
+                    <StartPos>80</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Batch Number</Name>
+                    <TagName>BatchNumber</TagName>
+                    <DataType>Numeric</DataType>
+                    <Length>7</Length>
+                    <StartPos>88</StartPos>
+                  </Field>
+                </Fields>
+              </Record>
+              <Record>
+                <Name>Detail</Name>
+                <TagName>Detail</TagName>
+                <MinOccur>1</MinOccur>
+                <MaxOccur>0</MaxOccur>
+                <Fields>
+                  <Field>
+                    <Name>Record Type Code</Name>
+                    <TagName>RecordTypeCode</TagName>
+                    <DataType>Numeric</DataType>
+                    <Length>1</Length>
+                    <StartPos>1</StartPos>
+                    <DefaultValue>6</DefaultValue>
+                    <Identifier>1</Identifier>
+                  </Field>
+                  <Field>
+                    <Name>Transaction Code</Name>
+                    <TagName>TransactionCode</TagName>
+                    <DataType>Numeric</DataType>
+                    <Length>2</Length>
+                    <StartPos>2</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Receiving DFI</Name>
+                    <TagName>ReceivingDFI</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>8</Length>
+                    <StartPos>4</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Check Digit</Name>
+                    <TagName>CheckDigit</TagName>
+                    <DataType>Numeric</DataType>
+                    <Length>1</Length>
+                    <StartPos>12</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>DFI Account NBR</Name>
+                    <TagName>DFIAccountNBR</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>17</Length>
+                    <StartPos>13</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Check Amount</Name>
+                    <TagName>CheckAmount</TagName>
+                    <DataType>Numeric</DataType>
+                    <PaddingChar> </PaddingChar>
+                    <Length>10</Length>
+                    <StartPos>30</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>ID Nbr</Name>
+                    <TagName>IDNbr</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>15</Length>
+                    <StartPos>40</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Receiving Name</Name>
+                    <TagName>ReceivingName</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>22</Length>
+                    <StartPos>55</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Discretionary Data</Name>
+                    <TagName>DiscretionaryData</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>2</Length>
+                    <StartPos>77</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Addenda Record Indicator</Name>
+                    <TagName>AddendaRecordIndicator</TagName>
+                    <DataType>Numeric</DataType>
+                    <Length>1</Length>
+                    <StartPos>79</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Trace Number</Name>
+                    <TagName>TraceNumber</TagName>
+                    <DataType>Numeric</DataType>
+                    <PaddingChar> </PaddingChar>
+                    <Length>15</Length>
+                    <StartPos>80</StartPos>
+                  </Field>
+                </Fields>
+              </Record>
+              <Record>
+                <Name>Company/Batch Control</Name>
+                <TagName>CompanyBatchControl</TagName>
+                <MinOccur>1</MinOccur>
+                <MaxOccur>1</MaxOccur>
+                <Fields>
+                  <Field>
+                    <Name>Record Type Code</Name>
+                    <TagName>RecordTypeCode</TagName>
+                    <DataType>Numeric</DataType>
+                    <Length>1</Length>
+                    <StartPos>1</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Service Class Code</Name>
+                    <TagName>ServiceClassCode</TagName>
+                    <DataType>Numeric</DataType>
+                    <Length>3</Length>
+                    <StartPos>2</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Entry Addenda Count</Name>
+                    <TagName>EntryAddendaCount</TagName>
+                    <DataType>Numeric</DataType>
+                    <Length>6</Length>
+                    <StartPos>5</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Entry Hash</Name>
+                    <TagName>EntryHash</TagName>
+                    <DataType>Numeric</DataType>
+                    <Length>10</Length>
+                    <StartPos>11</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Total Debit Entry Dollar Amount</Name>
+                    <TagName>TotalDebitEntryDollarAmount</TagName>
+                    <DataType>Numeric</DataType>
+                    <Length>12</Length>
+                    <StartPos>21</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Total Credit Entry Dollar Amount</Name>
+                    <TagName>TotalCreditEntryDollarAmount</TagName>
+                    <DataType>Numeric</DataType>
+                    <Length>12</Length>
+                    <StartPos>33</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Company Identification</Name>
+                    <TagName>CompanyIdentification</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>10</Length>
+                    <StartPos>45</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Message Authentication Code</Name>
+                    <TagName>MessageAuthenticationCode</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>19</Length>
+                    <StartPos>55</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Reserved</Name>
+                    <TagName>Reserved</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>6</Length>
+                    <StartPos>74</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Originating DFI</Name>
+                    <TagName>OriginatingDFI</TagName>
+                    <DataType>Alpha</DataType>
+                    <Length>8</Length>
+                    <StartPos>80</StartPos>
+                  </Field>
+                  <Field>
+                    <Name>Batch Number</Name>
+                    <TagName>BatchNumber</TagName>
+                    <DataType>Numeric</DataType>
+                    <Length>7</Length>
+                    <StartPos>88</StartPos>
+                  </Field>
+                </Fields>
+              </Record>
+            </Records>
+          </Group>
+          <Records>
+            <Record>
+              <Name>File Control</Name>
+              <TagName>FileControl</TagName>
+              <MinOccur>1</MinOccur>
+              <MaxOccur>1</MaxOccur>
+              <Fields>
+                <Field>
+                  <Name>Record Type Code</Name>
+                  <TagName>RecordTypeCode</TagName>
+                  <DataType>Alpha</DataType>
+                  <Length>1</Length>
+                  <StartPos>1</StartPos>
+                </Field>
+                <Field>
+                  <Name>Batch Count</Name>
+                  <TagName>BatchCount</TagName>
+                  <DataType>Numeric</DataType>
+                  <Length>6</Length>
+                  <StartPos>2</StartPos>
+                </Field>
+                <Field>
+                  <Name>Block Count</Name>
+                  <TagName>BlockCount</TagName>
+                  <DataType>Numeric</DataType>
+                  <Length>6</Length>
+                  <StartPos>8</StartPos>
+                </Field>
+                <Field>
+                  <Name>Entry Addenda Count</Name>
+                  <TagName>EntryAddendaCount</TagName>
+                  <DataType>Numeric</DataType>
+                  <Length>8</Length>
+                  <StartPos>14</StartPos>
+                </Field>
+                <Field>
+                  <Name>Entry Hash</Name>
+                  <TagName>EntryHash</TagName>
+                  <DataType>Numeric</DataType>
+                  <Length>10</Length>
+                  <StartPos>22</StartPos>
+                </Field>
+                <Field>
+                  <Name>Total Debit Entry Dollar Amount In File</Name>
+                  <TagName>TotalDebitEntryDollarAmountInFile</TagName>
+                  <DataType>Alpha</DataType>
+                  <PaddingChar>0</PaddingChar>
+                  <Length>12</Length>
+                  <StartPos>32</StartPos>
+                  <Alignment>RIGHT</Alignment>
+                </Field>
+                <Field>
+                  <Name>Total Credit Entry Dollar Amount In File</Name>
+                  <TagName>TotalCreditEntryDollarAmountInFile</TagName>
+                  <DataType>Alpha</DataType>
+                  <PaddingChar>0</PaddingChar>
+                  <Length>12</Length>
+                  <StartPos>44</StartPos>
+                  <Alignment>RIGHT</Alignment>
+                </Field>
+                <Field>
+                  <Name>Reserved</Name>
+                  <TagName>Reserved</TagName>
+                  <DataType>Alpha</DataType>
+                  <Length>39</Length>
+                  <StartPos>56</StartPos>
+                </Field>
+              </Fields>
+            </Record>
+          </Records>
+        </Message>
+      </Messages>
+    </File>
+  </Files>
+</BankRepository>
+

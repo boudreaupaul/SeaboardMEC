@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;HPEProducerTruckerPayment/HPEProducerTruckerPayment/ProcessSBD_APVoucher_c45c747f.xsd&apos;" deleteContents="false" description="Delete resource &apos;HPEProducerTruckerPayment/HPEProducerTruckerPayment/ProcessSBD_APVoucher_c45c747f.xsd&apos;" element1="/HPEProducerTruckerPayment/HPEProducerTruckerPayment/ProcessSBD_APVoucher_c45c747f.xsd" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1431528072330"/>
+</session>

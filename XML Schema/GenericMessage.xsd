@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:dt="urn:schemas-microsoft-com:datatypes" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import namespace="urn:schemas-microsoft-com:datatypes" />
+  <xs:element name="Envelope">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="plcccpp">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Header">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Sender">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="OriginatingSystem" type="xs:string" />
+                          <xs:element name="OriginatingEnvironment" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Transformation">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="TransformationServer" type="xs:string" />
+                          <xs:element name="TransformationEnvironment" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Receiver">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="TargetServer" type="xs:string" />
+                          <xs:element name="TargetEnvironment" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="MessageType" type="xs:string" />
+                    <xs:element name="CreationDateTime" type="xs:dateTime" />
+                    <xs:element name="BODID" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="DataArea">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="MessageHeader">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="viewfmt">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="ccwja1">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:unsignedByte">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="ccqxcd" type="xs:unsignedShort" />
+                                <xs:element name="ccwoa1">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:unsignedShort">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="ccqycd" type="xs:unsignedInt" />
+                                <xs:element name="ccqzcd" type="xs:unsignedInt" />
+                                <xs:element name="ccq0cd" type="xs:string" />
+                                <xs:element name="ccq1cd" type="xs:unsignedByte" />
+                                <xs:element name="ccwpa1">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:unsignedByte">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="ccafdx">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:unsignedInt">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="cclfva">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:decimal">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="cclgva">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:decimal">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="cclhva">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:decimal">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="ccliva">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:decimal">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="ccq2cd" type="xs:string" />
+                                <xs:element name="ccq3cd" type="xs:string" />
+                                <xs:element name="ccwsa1">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:unsignedInt">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="ccakt1" type="xs:string" />
+                                <xs:element name="ccant1" type="xs:unsignedInt" />
+                                <xs:element name="ccaot1" type="xs:string" />
+                                <xs:element name="ccagdx">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:unsignedInt">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="ccb0tm">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:unsignedInt">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="ccart1" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="MessageDetail">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="DetailLine">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="cdwja1">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:unsignedByte">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="cdqxcd" type="xs:unsignedShort" />
+                                <xs:element name="cdwoa1">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:unsignedShort">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="cdwqa1">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:unsignedByte">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="cdwra1">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:unsignedByte">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="cdljva">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:decimal">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="cdlkva">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:decimal">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="cdllva">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:decimal">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="cdlmva">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:decimal">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="cdast1" type="xs:string" />
+                                <xs:element name="cdagdx">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:unsignedInt">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                                <xs:element name="cdb0tm">
+                                  <xs:complexType>
+                                    <xs:simpleContent>
+                                      <xs:extension base="xs:unsignedInt">
+                                        <xs:attribute ref="dt:dt" use="required" />
+                                      </xs:extension>
+                                    </xs:simpleContent>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="releaseID" type="xs:decimal" use="required" />
+      <xs:attribute name="versionID" type="xs:string" use="required" />
+      <xs:attribute name="systemEnvironmentCode" type="xs:string" use="required" />
+      <xs:attribute name="languageCode" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

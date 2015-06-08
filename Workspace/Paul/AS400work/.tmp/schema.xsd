@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SyncGLTrialBalance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="sqle36638">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ApplicationArea">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Sender">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="LogicalID" type="xs:string" />
+                          <xs:element name="ComponentID" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="CreationDateTime" type="xs:dateTime" />
+                    <xs:element name="BODID" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="DataArea">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Sync">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="TenantID" type="xs:unsignedByte" />
+                          <xs:element name="LocationID" type="xs:unsignedByte" />
+                          <xs:element name="ActionCriteria">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="ActionExpression">
+                                  <xs:complexType>
+                                    <xs:attribute name="actionCode" type="xs:string" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="GLTrialBalance">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="GLTrialBalanceHeader">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="viewfmt">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="b9wja1" type="xs:unsignedByte" />
+                                      <xs:element name="b9qxcd" type="xs:unsignedShort" />
+                                      <xs:element name="b9ait1" type="xs:unsignedInt" />
+                                      <xs:element name="b9ajt1" type="xs:string" />
+                                      <xs:element name="b9akt1" type="xs:string" />
+                                      <xs:element name="b9wga1" type="xs:unsignedByte" />
+                                      <xs:element name="b9wha1" type="xs:unsignedByte" />
+                                      <xs:element name="b9wia1" type="xs:unsignedByte" />
+                                      <xs:element name="b9addx" type="xs:unsignedByte" />
+                                      <xs:element name="b9aedx" type="xs:unsignedInt" />
+                                      <xs:element name="b9aadt" type="xs:unsignedByte" />
+                                      <xs:element name="b9aavn" type="xs:string" />
+                                      <xs:element name="b9abdt" type="xs:unsignedInt" />
+                                      <xs:element name="b9abtm" type="xs:unsignedInt" />
+                                      <xs:element name="b9amtm" type="xs:unsignedByte" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="GLTrialBalanceDetail">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element maxOccurs="unbounded" name="viewfmt">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="cawja1" type="xs:unsignedByte" />
+                                      <xs:element name="caqxcd" type="xs:unsignedShort" />
+                                      <xs:element name="caait1" type="xs:unsignedInt" />
+                                      <xs:element name="cawka1" type="xs:unsignedByte" />
+                                      <xs:element name="caplt1" type="xs:string" />
+                                      <xs:element name="cawga1" type="xs:unsignedByte" />
+                                      <xs:element name="cawha1" type="xs:unsignedByte" />
+                                      <xs:element name="cawia1" type="xs:unsignedByte" />
+                                      <xs:element name="caaedx" type="xs:unsignedInt" />
+                                      <xs:element name="caaddx" type="xs:unsignedByte" />
+                                      <xs:element name="caaadt" type="xs:unsignedByte" />
+                                      <xs:element name="caaavn" type="xs:string" />
+                                      <xs:element name="caabdt" type="xs:unsignedInt" />
+                                      <xs:element name="caabtm" type="xs:unsignedInt" />
+                                      <xs:element name="caagvn" type="xs:string" />
+                                      <xs:element name="caamtm" type="xs:unsignedByte" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="releaseID" type="xs:decimal" use="required" />
+      <xs:attribute name="languageCode" type="xs:string" use="required" />
+      <xs:attribute name="systemEnvironmentCode" type="xs:string" use="required" />
+      <xs:attribute name="versionID" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

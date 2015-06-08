@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="http://schema.infor.com/InforOAGIS/2" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="AcknowledgeSBD_APVoucher">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ApplicationArea">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Sender">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="LogicalID" type="xs:string" />
+                    <xs:element name="ComponentID" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="CreationDateTime" type="xs:dateTime" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataArea">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Acknowledge">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="TenantID" type="xs:string" />
+                    <xs:element name="OriginalApplicationArea">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Sender">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="LogicalID" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="CreationDateTime" type="xs:dateTime" />
+                          <xs:element name="BODID" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ResponseCriteria">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element maxOccurs="unbounded" name="ResponseExpression">
+                            <xs:complexType>
+                              <xs:attribute name="actionCode" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="ChangeStatus">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="Reason" type="xs:string" />
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SBD_APVoucher">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ID">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="accountingEntity" type="xs:unsignedShort" use="required" />
+                            <xs:attribute name="logicalID" type="xs:string" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="company" type="xs:unsignedByte" />
+                    <xs:element name="division" type="xs:unsignedShort" />
+                    <xs:element name="invbatch" type="xs:unsignedShort" />
+                    <xs:element name="payee" type="xs:unsignedInt" />
+                    <xs:element name="supplier" type="xs:unsignedInt" />
+                    <xs:element name="supplierInvoice" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="releaseID" type="xs:unsignedByte" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="ProcessSBD_APVoucher">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="ApplicationArea">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Sender">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="LogicalID" type="xs:string" />
+                    <xs:element name="ComponentID" type="xs:string" />
+                    <xs:element name="TaskID" type="xs:string" />
+                    <xs:element name="ConfirmationCode" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="CreationDateTime" type="xs:dateTime" />
+              <xs:element name="BODID" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="DataArea">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Process">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="TenantID" type="xs:string" />
+                    <xs:element name="AccountingEntityID" type="xs:string" />
+                    <xs:element name="Location" />
+                    <xs:element name="ActionCriteria">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="ActionExpression">
+                            <xs:complexType>
+                              <xs:attribute name="actionCode" type="xs:string" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SBD_APVoucher">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="ID">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:string">
+                            <xs:attribute name="accountingEntity" type="xs:unsignedShort" use="required" />
+                            <xs:attribute name="logicalID" type="xs:string" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="company" type="xs:unsignedByte" />
+                    <xs:element name="division" type="xs:unsignedShort" />
+                    <xs:element name="invbatch" type="xs:unsignedShort" />
+                    <xs:element name="payee" type="xs:unsignedInt" />
+                    <xs:element name="supplier" type="xs:unsignedInt" />
+                    <xs:element name="supplierInvoice" type="xs:string" />
+                    <xs:element name="invbtchtyp" type="xs:unsignedByte" />
+                    <xs:element name="invstatus" type="xs:unsignedByte" />
+                    <xs:element name="invdate" type="xs:unsignedInt" />
+                    <xs:element name="currency" type="xs:string" />
+                    <xs:element name="paymentTerm" type="xs:string" />
+                    <xs:element name="amountNet">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:decimal">
+                            <xs:attribute name="currencyID" type="xs:string" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="cashDiscountBasis">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:unsignedByte">
+                            <xs:attribute name="currencyID" type="xs:string" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="foreignCurAmount">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:decimal">
+                            <xs:attribute name="currencyID" type="xs:string" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="totalCharge">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:unsignedByte">
+                            <xs:attribute name="currencyID" type="xs:string" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="totalDue">
+                      <xs:complexType>
+                        <xs:simpleContent>
+                          <xs:extension base="xs:decimal">
+                            <xs:attribute name="currencyID" type="xs:string" use="required" />
+                          </xs:extension>
+                        </xs:simpleContent>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="invMatch" type="xs:unsignedByte" />
+                    <xs:element name="payMethd" type="xs:string" />
+                    <xs:element name="vchnbrser" type="xs:string" />
+                    <xs:element name="vchnbr" type="xs:unsignedInt" />
+                    <xs:element name="description" type="xs:string" />
+                    <xs:element name="exchRateType" type="xs:unsignedByte" />
+                    <xs:element name="poNumber" />
+                    <xs:element name="cashDiscTerm" />
+                    <xs:element name="getPaydft" type="xs:unsignedByte" />
+                    <xs:element name="jobNumber" type="xs:unsignedInt" />
+                    <xs:element name="jobName" type="xs:string" />
+                    <xs:element name="entryDate" type="xs:unsignedInt" />
+                    <xs:element name="entryTime" type="xs:unsignedInt" />
+                    <xs:element name="reference" type="xs:string" />
+                    <xs:element name="SBD_APVoucherAddlInfo">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="company" type="xs:unsignedByte" />
+                          <xs:element name="division" type="xs:unsignedShort" />
+                          <xs:element name="invbatch" type="xs:unsignedShort" />
+                          <xs:element name="addlcateg" type="xs:unsignedShort" />
+                          <xs:element name="addlinfo" type="xs:string" />
+                          <xs:element name="infseq" type="xs:unsignedByte" />
+                          <xs:element name="textid" type="xs:unsignedByte" />
+                          <xs:element name="timestamp" type="xs:unsignedByte" />
+                          <xs:element name="entrydt" type="xs:unsignedInt" />
+                          <xs:element name="entrytm" type="xs:unsignedInt" />
+                          <xs:element name="changeddt" type="xs:unsignedByte" />
+                          <xs:element name="changenbr" type="xs:unsignedByte" />
+                          <xs:element name="changeby" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

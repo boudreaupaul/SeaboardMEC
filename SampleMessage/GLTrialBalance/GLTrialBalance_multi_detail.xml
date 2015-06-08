@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SyncGLTrialBalance releaseID="9.200000000" languageCode="GB" systemEnvironmentCode="Production" versionID="2.7.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <sqle36638>
+    <ApplicationArea>
+      <Sender>
+        <LogicalID>infor.informatica.hpe</LogicalID>
+        <ComponentID>SBD_HPE</ComponentID>
+      </Sender>
+      <CreationDateTime>2015-05-20T13:25:38.000000000</CreationDateTime>
+      <BODID>HPE:360:05/20/2015 13:25:38.000000</BODID>
+    </ApplicationArea>
+    <DataArea>
+      <Sync>
+        <TenantID>1</TenantID>
+        <LocationID>1</LocationID>
+        <ActionCriteria>
+          <ActionExpression actionCode="Add"/>
+        </ActionCriteria>
+      </Sync>
+      <GLTrialBalance>
+        <GLTrialBalanceHeader>
+          <viewfmt>
+            <b9wja1>4</b9wja1>
+            <b9qxcd>980</b9qxcd>
+            <b9ait1>201410</b9ait1>
+            <b9ajt1>TB_UPLD        </b9ajt1>
+            <b9akt1>JDE Balance Transfer                    </b9akt1>
+            <b9wga1>0</b9wga1>
+            <b9wha1>0</b9wha1>
+            <b9wia1>0</b9wia1>
+            <b9addx>0</b9addx>
+            <b9aedx>20150519</b9aedx>
+            <b9aadt>0</b9aadt>
+            <b9aavn>ISBGUTI   </b9aavn>
+            <b9abdt>1150519</b9abdt>
+            <b9abtm>172128</b9abtm>
+            <b9amtm>0</b9amtm>
+          </viewfmt>
+        </GLTrialBalanceHeader>
+        <GLTrialBalanceDetail>
+          <viewfmt>
+            <cawja1>4</cawja1>
+            <caqxcd>980</caqxcd>
+            <caait1>201410</caait1>
+            <cawka1>1</cawka1>
+            <caplt1>1100101,980,,,,,,0,2500.00,JDE Balance Transfer                                                                                                                                                         </caplt1>
+            <cawga1>0</cawga1>
+            <cawha1>0</cawha1>
+            <cawia1>0</cawia1>
+            <caaedx>20150519</caaedx>
+            <caaddx>0</caaddx>
+            <caaadt>0</caaadt>
+            <caaavn>ISBGUTI   </caaavn>
+            <caabdt>1150519</caabdt>
+            <caabtm>172128</caabtm>
+            <caagvn>M3JDE200  </caagvn>
+            <caamtm>0</caamtm>
+          </viewfmt>
+          <viewfmt>
+            <cawja1>4</cawja1>
+            <caqxcd>980</caqxcd>
+            <caait1>201410</caait1>
+            <cawka1>2</cawka1>
+            <caplt1>4800,980,,,,,,0,2500.00-,JDE Balance Transfer                                                                                                                                                           </caplt1>
+            <cawga1>0</cawga1>
+            <cawha1>0</cawha1>
+            <cawia1>0</cawia1>
+            <caaedx>20150519</caaedx>
+            <caaddx>0</caaddx>
+            <caaadt>0</caaadt>
+            <caaavn>ISBGUTI   </caaavn>
+            <caabdt>1150519</caabdt>
+            <caabtm>172128</caabtm>
+            <caagvn>M3JDE200  </caagvn>
+            <caamtm>0</caamtm>
+          </viewfmt>
+          <viewfmt>
+            <cawja1>4</cawja1>
+            <caqxcd>980</caqxcd>
+            <caait1>201410</caait1>
+            <cawka1>3</cawka1>
+            <caplt1>4840,980,,,,,,0,57239149.00-,JDE Balance Transfer                                                                                                                                                       </caplt1>
+            <cawga1>0</cawga1>
+            <cawha1>0</cawha1>
+            <cawia1>0</cawia1>
+            <caaedx>20150519</caaedx>
+            <caaddx>0</caaddx>
+            <caaadt>0</caaadt>
+            <caaavn>ISBGUTI   </caaavn>
+            <caabdt>1150519</caabdt>
+            <caabtm>172128</caabtm>
+            <caagvn>M3JDE200  </caagvn>
+            <caamtm>0</caamtm>
+          </viewfmt>
+          <viewfmt>
+            <cawja1>4</cawja1>
+            <caqxcd>980</caqxcd>
+            <caait1>201410</caait1>
+            <cawka1>4</cawka1>
+            <caplt1>4840100,980,,,,,,0,61427017.00,JDE Balance Transfer                                                                                                                                                     </caplt1>
+            <cawga1>0</cawga1>
+            <cawha1>0</cawha1>
+            <cawia1>0</cawia1>
+            <caaedx>20150519</caaedx>
+            <caaddx>0</caaddx>
+            <caaadt>0</caaadt>
+            <caaavn>ISBGUTI   </caaavn>
+            <caabdt>1150519</caabdt>
+            <caabtm>172128</caabtm>
+            <caagvn>M3JDE200  </caagvn>
+            <caamtm>0</caamtm>
+          </viewfmt>
+        </GLTrialBalanceDetail>
+      </GLTrialBalance>
+    </DataArea>
+  </sqle36638>
+</SyncGLTrialBalance>

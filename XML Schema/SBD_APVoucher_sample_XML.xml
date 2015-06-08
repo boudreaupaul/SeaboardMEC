@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProcessSBD_APVoucher releaseID="1.0" 
+	xmlns="http://schema.infor.com/InforOAGIS/2" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://schema.infor.com/InforOAGIS/2 ./ProcessSBD_APVoucher.xsd">
+	<ApplicationArea>
+		<Sender>
+			<LogicalID>infor.sbd.applicationreference</LogicalID>
+			<ComponentID>SBD_HPE</ComponentID>
+			<TaskID>Not Used</TaskID>
+			<ConfirmationCode>OnError</ConfirmationCode>
+		</Sender>
+		<CreationDateTime>2015-05-15T20:41:35Z</CreationDateTime>
+		<BODID>HPE:360:604373:someserailnumber</BODID>
+	</ApplicationArea>
+	<DataArea>
+		<Process>
+			<TenantID>Infor</TenantID>
+			<AccountingEntityID>ae1</AccountingEntityID>
+			<LocationID>loc1</LocationID>
+			<ActionCriteria>
+				<ActionExpression actionCode="Add" expressionLanguage=""/>
+			</ActionCriteria>
+		</Process>
+		<SBD_APVoucher>
+			<company>4</company>
+			<division>360</division>
+			<invbatch>606</invbatch>
+			<payee>604373</payee>
+			<supplier>604373</supplier>
+			<supplierInvoice>65628-0001-03663</supplierInvoice>
+			<invbtchtyp>20</invbtchtyp>
+			<invstatus>10</invstatus>
+			<invdate>2015-05-07</invdate>
+			<currency>s</currency>
+			<paymentTerm>a</paymentTerm>
+			<amountNet currencyID="USD">1700.00</amountNet>
+			<cashDiscountBasis currencyID="USD">0</cashDiscountBasis>
+			<foreignCurAmount currencyID="USD">1700.00</foreignCurAmount>
+			<totalCharge currencyID="USD">0</totalCharge>
+			<totalDue currencyID="USD">1700.00</totalDue>
+			<invMatch>0</invMatch>
+			<payMethd>HPE</payMethd>
+			<vchnbrser>HPE</vchnbrser>
+			<vchnbr>1000605</vchnbr>
+			<description>Buhr&apos;s Trucking</description>
+			<exchRateType>0</exchRateType>
+			<poNumber/>
+			<cashDiscTerm/>
+			<getPaydft>1</getPaydft>
+			<jobNumber>388535</jobNumber>
+			<jobName>PLW4XFR</jobName>
+			<entryDate>2015-05-11</entryDate>
+			<entryTime>152902</entryTime>
+			<reference>Buhr&apos;s Trucking</reference>
+			<SBD_APVoucherDetail>
+				<transReferenceNumber>1</transReferenceNumber>
+				<lineType>0</lineType>
+				<netAmountLine currencyID="USD">1700.00</netAmountLine>
+				<grossAmountLine currencyID="USD">1700.00</grossAmountLine>
+				<adjAmount currencyID="USD">0</adjAmount>
+				<discAmount currencyID="USD">0</discAmount>
+				<chargeText>65628-0001 Buhr&apos;s Trucking</chargeText>
+				<entryDate>2015-05-11</entryDate>
+				<entryTime>152902</entryTime>
+			</SBD_APVoucherDetail>
+			<SBD_APVoucherDetail>
+				<transReferenceNumber>2</transReferenceNumber>
+				<lineType>0</lineType>
+				<netAmountLine currencyID="USD">380.00</netAmountLine>
+				<grossAmountLine currencyID="USD">380.00</grossAmountLine>
+				<adjAmount currencyID="USD">0</adjAmount>
+				<discAmount currencyID="USD">0</discAmount>
+				<chargeText>65623-0002 Casper Express Inc</chargeText>
+				<entryDate>2015-05-11</entryDate>
+				<entryTime>152902</entryTime>
+			</SBD_APVoucherDetail>
+		</SBD_APVoucher>
+	</DataArea>
+</ProcessSBD_APVoucher>
