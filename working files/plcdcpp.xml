@@ -1,0 +1,3839 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<plcdcpp xmlns:dt="urn:schemas-microsoft-com:datatypes">
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">606</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">1700.00</netamtline> 
+    <grossamtln dt:dt="number">1700.00</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65628-0001 Buhr&apos;s Trucking</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152902</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">607</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">1270.00</netamtline> 
+    <grossamtln dt:dt="number">1270.00</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65636-0001 C&amp;C TRUCK LINE INC.</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152902</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">608</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">380.00</netamtline> 
+    <grossamtln dt:dt="number">380.00</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65623-0002 Casper Express Inc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152902</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">609</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">310.00</netamtline> 
+    <grossamtln dt:dt="number">310.00</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65623-0001 Texas Farm,LLC.</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152902</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">609</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">310.00</netamtline> 
+    <grossamtln dt:dt="number">310.00</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65623-0003 Texas Farm,LLC.</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152902</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">610</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26786.46</netamtline> 
+    <grossamtln dt:dt="number">28169.14</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-1382.68</discamt> 
+    <chargetext>65636-0001-4248 Market Agri</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">611</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">30524.34</netamtline> 
+    <grossamtln dt:dt="number">30646.93</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-122.59</discamt> 
+    <chargetext>65597-0001-6254 Market Agri</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">612</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">22851.71</netamtline> 
+    <grossamtln dt:dt="number">24386.98</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-1535.27</discamt> 
+    <chargetext>65628-0001-3663 Market Agri</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">612</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">4104.38</netamtline> 
+    <grossamtln dt:dt="number">4384.20</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-279.82</discamt> 
+    <chargetext>65628-0001-4273 Market Agri</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">613</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26699.67</netamtline> 
+    <grossamtln dt:dt="number">26806.90</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-107.23</discamt> 
+    <chargetext>65625-0007-1392 Contract Hitc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">613</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27179.04</netamtline> 
+    <grossamtln dt:dt="number">27288.19</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-109.15</discamt> 
+    <chargetext>65625-0004-1844 Contract Hitc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">613</invbtch> 
+    <transnbr dt:dt="number">3</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27198.22</netamtline> 
+    <grossamtln dt:dt="number">27307.45</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-109.23</discamt> 
+    <chargetext>65625-0005-1888 Contract Hitc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">613</invbtch> 
+    <transnbr dt:dt="number">4</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27476.14</netamtline> 
+    <grossamtln dt:dt="number">27586.48</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.34</discamt> 
+    <chargetext>65625-0006-2964 Contract Hitc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">613</invbtch> 
+    <transnbr dt:dt="number">5</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26428.26</netamtline> 
+    <grossamtln dt:dt="number">26534.40</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-106.14</discamt> 
+    <chargetext>65625-0009-2965 Contract Hitc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">613</invbtch> 
+    <transnbr dt:dt="number">6</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25677.37</netamtline> 
+    <grossamtln dt:dt="number">25780.49</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-103.12</discamt> 
+    <chargetext>65625-0001-3944 Contract Hitc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">613</invbtch> 
+    <transnbr dt:dt="number">7</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27597.40</netamtline> 
+    <grossamtln dt:dt="number">27708.23</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.83</discamt> 
+    <chargetext>65625-0010-5831 Contract Hitc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">613</invbtch> 
+    <transnbr dt:dt="number">8</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27086.70</netamtline> 
+    <grossamtln dt:dt="number">27195.48</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-108.78</discamt> 
+    <chargetext>65625-0003-7834 Contract Hitc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">613</invbtch> 
+    <transnbr dt:dt="number">9</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26343.15</netamtline> 
+    <grossamtln dt:dt="number">26448.95</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-105.80</discamt> 
+    <chargetext>65625-0002-8283 Contract Hitc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">613</invbtch> 
+    <transnbr dt:dt="number">10</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26927.47</netamtline> 
+    <grossamtln dt:dt="number">27035.61</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-108.14</discamt> 
+    <chargetext>65625-0008-8484 Contract Hitc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">614</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">24266.94</netamtline> 
+    <grossamtln dt:dt="number">24364.40</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-97.46</discamt> 
+    <chargetext>65622-0005-1183 Contract Kans</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">614</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27462.11</netamtline> 
+    <grossamtln dt:dt="number">27572.40</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.29</discamt> 
+    <chargetext>65622-0004-1192 Contract Kans</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">614</invbtch> 
+    <transnbr dt:dt="number">3</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28257.03</netamtline> 
+    <grossamtln dt:dt="number">28370.51</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-113.48</discamt> 
+    <chargetext>65622-0003-1213 Contract Kans</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">614</invbtch> 
+    <transnbr dt:dt="number">4</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26853.69</netamtline> 
+    <grossamtln dt:dt="number">26961.54</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-107.85</discamt> 
+    <chargetext>65622-0002-1239 Contract Kans</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">614</invbtch> 
+    <transnbr dt:dt="number">5</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25774.63</netamtline> 
+    <grossamtln dt:dt="number">25878.14</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-103.51</discamt> 
+    <chargetext>65622-0001-1782 Contract Kans</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">614</invbtch> 
+    <transnbr dt:dt="number">6</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28482.33</netamtline> 
+    <grossamtln dt:dt="number">28596.72</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-114.39</discamt> 
+    <chargetext>65622-0006-2574 Contract Kans</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">615</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">52.75</netamtline> 
+    <grossamtln dt:dt="number">52.75</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65626-0001-4363 Contract Murp</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">615</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">99.42</netamtline> 
+    <grossamtln dt:dt="number">99.42</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65626-0001-4683 Contract Murp</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">615</invbtch> 
+    <transnbr dt:dt="number">3</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25166.02</netamtline> 
+    <grossamtln dt:dt="number">25267.09</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-101.07</discamt> 
+    <chargetext>65626-0001-8116 Contract Murp</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">616</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">31744.21</netamtline> 
+    <grossamtln dt:dt="number">31871.70</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-127.49</discamt> 
+    <chargetext>65627-0002-1164 Market Penn</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">616</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">30001.34</netamtline> 
+    <grossamtln dt:dt="number">30121.83</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-120.49</discamt> 
+    <chargetext>65627-0001-8414 Market Penn</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">617</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27015.73</netamtline> 
+    <grossamtln dt:dt="number">27124.23</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-108.50</discamt> 
+    <chargetext>65624-0007-1174 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">617</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25099.92</netamtline> 
+    <grossamtln dt:dt="number">25200.72</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-100.80</discamt> 
+    <chargetext>65624-0005-1433 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">617</invbtch> 
+    <transnbr dt:dt="number">3</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26748.48</netamtline> 
+    <grossamtln dt:dt="number">26855.90</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-107.42</discamt> 
+    <chargetext>65624-0002-1453 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">617</invbtch> 
+    <transnbr dt:dt="number">4</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25295.59</netamtline> 
+    <grossamtln dt:dt="number">25397.18</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-101.59</discamt> 
+    <chargetext>65624-0010-1583 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">617</invbtch> 
+    <transnbr dt:dt="number">5</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25764.63</netamtline> 
+    <grossamtln dt:dt="number">25868.10</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-103.47</discamt> 
+    <chargetext>65624-0011-1713 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">617</invbtch> 
+    <transnbr dt:dt="number">6</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25469.31</netamtline> 
+    <grossamtln dt:dt="number">25571.60</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-102.29</discamt> 
+    <chargetext>65624-0009-1785 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">617</invbtch> 
+    <transnbr dt:dt="number">7</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26599.19</netamtline> 
+    <grossamtln dt:dt="number">26706.01</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-106.82</discamt> 
+    <chargetext>65624-0001-2873 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">617</invbtch> 
+    <transnbr dt:dt="number">8</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27443.59</netamtline> 
+    <grossamtln dt:dt="number">27553.81</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.22</discamt> 
+    <chargetext>65624-0004-4752 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">617</invbtch> 
+    <transnbr dt:dt="number">9</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27195.45</netamtline> 
+    <grossamtln dt:dt="number">27304.67</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-109.22</discamt> 
+    <chargetext>65624-0006-5133 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">617</invbtch> 
+    <transnbr dt:dt="number">10</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">23262.20</netamtline> 
+    <grossamtln dt:dt="number">23355.62</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-93.42</discamt> 
+    <chargetext>65624-0003-5163 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">617</invbtch> 
+    <transnbr dt:dt="number">11</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27277.11</netamtline> 
+    <grossamtln dt:dt="number">27386.66</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-109.55</discamt> 
+    <chargetext>65624-0008-6871 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">618</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26616.26</netamtline> 
+    <grossamtln dt:dt="number">26716.24</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-99.98</discamt> 
+    <chargetext>65640-0082-1336 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">618</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28292.57</netamtline> 
+    <grossamtln dt:dt="number">28405.86</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-113.29</discamt> 
+    <chargetext>65640-0005-1572 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">618</invbtch> 
+    <transnbr dt:dt="number">3</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26379.76</netamtline> 
+    <grossamtln dt:dt="number">26480.06</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-100.30</discamt> 
+    <chargetext>65640-0037-1692 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">618</invbtch> 
+    <transnbr dt:dt="number">4</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27983.22</netamtline> 
+    <grossamtln dt:dt="number">28090.87</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-107.65</discamt> 
+    <chargetext>65640-0080-2736 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">618</invbtch> 
+    <transnbr dt:dt="number">5</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">24882.88</netamtline> 
+    <grossamtln dt:dt="number">24982.35</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-99.47</discamt> 
+    <chargetext>65640-0089-3592 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">618</invbtch> 
+    <transnbr dt:dt="number">6</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">19108.08</netamtline> 
+    <grossamtln dt:dt="number">19180.84</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-72.76</discamt> 
+    <chargetext>65640-0040-4389 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">618</invbtch> 
+    <transnbr dt:dt="number">7</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28099.95</netamtline> 
+    <grossamtln dt:dt="number">28206.40</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-106.45</discamt> 
+    <chargetext>65640-0010-4493 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">618</invbtch> 
+    <transnbr dt:dt="number">8</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27521.32</netamtline> 
+    <grossamtln dt:dt="number">27627.87</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-106.55</discamt> 
+    <chargetext>65640-0006-5716 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">618</invbtch> 
+    <transnbr dt:dt="number">9</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">24501.83</netamtline> 
+    <grossamtln dt:dt="number">24594.65</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-92.82</discamt> 
+    <chargetext>65640-0087-6283 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">618</invbtch> 
+    <transnbr dt:dt="number">10</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26858.78</netamtline> 
+    <grossamtln dt:dt="number">26960.23</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-101.45</discamt> 
+    <chargetext>65640-0088-6384 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">618</invbtch> 
+    <transnbr dt:dt="number">11</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">22537.11</netamtline> 
+    <grossamtln dt:dt="number">22621.37</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-84.26</discamt> 
+    <chargetext>65640-0036-6783 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">618</invbtch> 
+    <transnbr dt:dt="number">12</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26779.72</netamtline> 
+    <grossamtln dt:dt="number">26880.34</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-100.62</discamt> 
+    <chargetext>65640-0081-7784 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">618</invbtch> 
+    <transnbr dt:dt="number">13</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">19236.77</netamtline> 
+    <grossamtln dt:dt="number">19307.63</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-70.86</discamt> 
+    <chargetext>65640-0086-7791 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">618</invbtch> 
+    <transnbr dt:dt="number">14</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26389.16</netamtline> 
+    <grossamtln dt:dt="number">26491.62</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-102.46</discamt> 
+    <chargetext>65640-0039-8963 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25391.74</netamtline> 
+    <grossamtln dt:dt="number">25489.84</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-98.10</discamt> 
+    <chargetext>65641-0035-1116 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26890.48</netamtline> 
+    <grossamtln dt:dt="number">26989.75</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-99.27</discamt> 
+    <chargetext>65641-0063-1161 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">3</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29237.62</netamtline> 
+    <grossamtln dt:dt="number">29350.06</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-112.44</discamt> 
+    <chargetext>65641-0010-1212 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">4</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27221.20</netamtline> 
+    <grossamtln dt:dt="number">27326.63</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-105.43</discamt> 
+    <chargetext>65641-0033-1224 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">5</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28274.38</netamtline> 
+    <grossamtln dt:dt="number">28382.58</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-108.20</discamt> 
+    <chargetext>65641-0068-1245 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">6</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">22028.85</netamtline> 
+    <grossamtln dt:dt="number">22110.73</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-81.88</discamt> 
+    <chargetext>65641-0023-1252 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">7</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25595.44</netamtline> 
+    <grossamtln dt:dt="number">25691.84</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-96.40</discamt> 
+    <chargetext>65641-0012-1264 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">8</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27278.14</netamtline> 
+    <grossamtln dt:dt="number">27388.91</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.77</discamt> 
+    <chargetext>65641-0030-1275 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">9</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28289.31</netamtline> 
+    <grossamtln dt:dt="number">28395.12</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-105.81</discamt> 
+    <chargetext>65641-0019-1298 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">10</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28568.85</netamtline> 
+    <grossamtln dt:dt="number">28678.42</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-109.57</discamt> 
+    <chargetext>65641-0080-1446 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">11</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">23991.02</netamtline> 
+    <grossamtln dt:dt="number">24082.18</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-91.16</discamt> 
+    <chargetext>65641-0031-1464 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">12</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29148.00</netamtline> 
+    <grossamtln dt:dt="number">29263.07</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-115.07</discamt> 
+    <chargetext>65641-0081-1484 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">13</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28916.84</netamtline> 
+    <grossamtln dt:dt="number">29028.20</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-111.36</discamt> 
+    <chargetext>65641-0058-1624 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">14</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28512.24</netamtline> 
+    <grossamtln dt:dt="number">28620.93</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-108.69</discamt> 
+    <chargetext>65641-0003-1645 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">15</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27677.12</netamtline> 
+    <grossamtln dt:dt="number">27785.13</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-108.01</discamt> 
+    <chargetext>65641-0050-1672 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">16</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26324.28</netamtline> 
+    <grossamtln dt:dt="number">26423.92</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-99.64</discamt> 
+    <chargetext>65641-0026-1716 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">17</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26480.09</netamtline> 
+    <grossamtln dt:dt="number">26582.10</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-102.01</discamt> 
+    <chargetext>65641-0072-1746 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">18</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27551.33</netamtline> 
+    <grossamtln dt:dt="number">27652.27</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-100.94</discamt> 
+    <chargetext>65641-0036-1824 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">19</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25657.60</netamtline> 
+    <grossamtln dt:dt="number">25754.09</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-96.49</discamt> 
+    <chargetext>65641-0029-1843 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">20</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">23991.93</netamtline> 
+    <grossamtln dt:dt="number">24084.39</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-92.46</discamt> 
+    <chargetext>65641-0066-1848 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">21</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">24675.79</netamtline> 
+    <grossamtln dt:dt="number">24773.53</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-97.74</discamt> 
+    <chargetext>65641-0038-1912 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">22</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">21535.52</netamtline> 
+    <grossamtln dt:dt="number">21614.44</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-78.92</discamt> 
+    <chargetext>65641-0088-1924 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">23</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27453.05</netamtline> 
+    <grossamtln dt:dt="number">27554.97</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-101.92</discamt> 
+    <chargetext>65641-0022-1994 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">24</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28221.75</netamtline> 
+    <grossamtln dt:dt="number">28330.85</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-109.10</discamt> 
+    <chargetext>65641-0002-2133 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">25</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29497.42</netamtline> 
+    <grossamtln dt:dt="number">29610.74</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-113.32</discamt> 
+    <chargetext>65641-0004-2228 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">26</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">21931.07</netamtline> 
+    <grossamtln dt:dt="number">22013.79</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-82.72</discamt> 
+    <chargetext>65641-0032-2333 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">27</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27270.67</netamtline> 
+    <grossamtln dt:dt="number">27372.96</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-102.29</discamt> 
+    <chargetext>65641-0011-2336 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">28</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">22483.81</netamtline> 
+    <grossamtln dt:dt="number">22576.55</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-92.74</discamt> 
+    <chargetext>65641-0014-2468 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">29</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">11815.91</netamtline> 
+    <grossamtln dt:dt="number">11860.42</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-44.51</discamt> 
+    <chargetext>65641-0034-2563 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">30</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">13761.27</netamtline> 
+    <grossamtln dt:dt="number">13813.89</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-52.62</discamt> 
+    <chargetext>65641-0006-2613 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">31</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29695.70</netamtline> 
+    <grossamtln dt:dt="number">29811.32</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-115.62</discamt> 
+    <chargetext>65641-0055-2639 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">32</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28509.65</netamtline> 
+    <grossamtln dt:dt="number">28620.19</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.54</discamt> 
+    <chargetext>65641-0025-2733 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">33</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26933.75</netamtline> 
+    <grossamtln dt:dt="number">27040.58</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-106.83</discamt> 
+    <chargetext>65641-0028-2916 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">34</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26288.27</netamtline> 
+    <grossamtln dt:dt="number">26384.53</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-96.26</discamt> 
+    <chargetext>65641-0027-2976 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">35</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">496.09</netamtline> 
+    <grossamtln dt:dt="number">496.09</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65641-0032-3245 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">36</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27735.37</netamtline> 
+    <grossamtln dt:dt="number">27840.90</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-105.53</discamt> 
+    <chargetext>65641-0017-3276 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">37</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28944.19</netamtline> 
+    <grossamtln dt:dt="number">29051.90</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-107.71</discamt> 
+    <chargetext>65641-0015-3312 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">38</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29308.95</netamtline> 
+    <grossamtln dt:dt="number">29424.96</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-116.01</discamt> 
+    <chargetext>65641-0005-3333 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">39</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25967.53</netamtline> 
+    <grossamtln dt:dt="number">26067.78</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-100.25</discamt> 
+    <chargetext>65641-0044-3515 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">40</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28140.07</netamtline> 
+    <grossamtln dt:dt="number">28245.83</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-105.76</discamt> 
+    <chargetext>65641-0086-3588 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">41</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27034.71</netamtline> 
+    <grossamtln dt:dt="number">27137.65</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-102.94</discamt> 
+    <chargetext>65641-0042-3853 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">42</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">24561.01</netamtline> 
+    <grossamtln dt:dt="number">24656.20</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-95.19</discamt> 
+    <chargetext>65641-0064-3864 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">43</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28806.18</netamtline> 
+    <grossamtln dt:dt="number">28915.98</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-109.80</discamt> 
+    <chargetext>65641-0071-4146 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">44</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28793.70</netamtline> 
+    <grossamtln dt:dt="number">28902.71</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-109.01</discamt> 
+    <chargetext>65641-0009-4158 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">45</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28568.00</netamtline> 
+    <grossamtln dt:dt="number">28680.49</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-112.49</discamt> 
+    <chargetext>65641-0007-4165 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">46</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29620.35</netamtline> 
+    <grossamtln dt:dt="number">29737.99</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-117.64</discamt> 
+    <chargetext>65641-0091-4168 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">47</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29503.80</netamtline> 
+    <grossamtln dt:dt="number">29614.20</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.40</discamt> 
+    <chargetext>65641-0043-4232 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">48</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25238.82</netamtline> 
+    <grossamtln dt:dt="number">25334.15</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-95.33</discamt> 
+    <chargetext>65641-0013-4244 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">49</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">22721.06</netamtline> 
+    <grossamtln dt:dt="number">22809.90</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-88.84</discamt> 
+    <chargetext>65641-0054-4253 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">50</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28050.10</netamtline> 
+    <grossamtln dt:dt="number">28154.20</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-104.10</discamt> 
+    <chargetext>65641-0018-4312 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">51</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">19532.62</netamtline> 
+    <grossamtln dt:dt="number">19604.40</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-71.78</discamt> 
+    <chargetext>65641-0052-4352 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">52</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28085.83</netamtline> 
+    <grossamtln dt:dt="number">28192.29</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-106.46</discamt> 
+    <chargetext>65641-0083-4438 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">53</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">18795.03</netamtline> 
+    <grossamtln dt:dt="number">18865.93</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-70.90</discamt> 
+    <chargetext>65641-0059-4463 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">54</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28081.25</netamtline> 
+    <grossamtln dt:dt="number">28187.62</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-106.37</discamt> 
+    <chargetext>65641-0077-4773 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">55</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28530.57</netamtline> 
+    <grossamtln dt:dt="number">28640.62</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.05</discamt> 
+    <chargetext>65641-0008-4858 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">56</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26303.14</netamtline> 
+    <grossamtln dt:dt="number">26402.94</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-99.80</discamt> 
+    <chargetext>65641-0057-4964 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">57</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28184.12</netamtline> 
+    <grossamtln dt:dt="number">28291.81</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-107.69</discamt> 
+    <chargetext>65641-0079-5194 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">58</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27244.47</netamtline> 
+    <grossamtln dt:dt="number">27342.82</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-98.35</discamt> 
+    <chargetext>65641-0024-5213 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">59</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27301.54</netamtline> 
+    <grossamtln dt:dt="number">27404.48</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-102.94</discamt> 
+    <chargetext>65641-0016-5649 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">60</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">36.52</netamtline> 
+    <grossamtln dt:dt="number">36.52</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65641-0040-5753 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">61</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26110.42</netamtline> 
+    <grossamtln dt:dt="number">26207.24</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-96.82</discamt> 
+    <chargetext>65641-0065-5787 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">62</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29228.67</netamtline> 
+    <grossamtln dt:dt="number">29343.48</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-114.81</discamt> 
+    <chargetext>65641-0051-5873 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">63</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28556.39</netamtline> 
+    <grossamtln dt:dt="number">28666.06</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-109.67</discamt> 
+    <chargetext>65641-0073-6138 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">64</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29530.06</netamtline> 
+    <grossamtln dt:dt="number">29643.61</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-113.55</discamt> 
+    <chargetext>65641-0078-6173 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">65</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25588.98</netamtline> 
+    <grossamtln dt:dt="number">25684.85</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-95.87</discamt> 
+    <chargetext>65641-0069-6432 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">66</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26611.89</netamtline> 
+    <grossamtln dt:dt="number">26709.31</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-97.42</discamt> 
+    <chargetext>65641-0048-6688 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">67</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28417.77</netamtline> 
+    <grossamtln dt:dt="number">28528.08</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.31</discamt> 
+    <chargetext>65641-0039-6786 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">68</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">24865.93</netamtline> 
+    <grossamtln dt:dt="number">24961.96</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-96.03</discamt> 
+    <chargetext>65641-0046-7118 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">69</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27335.12</netamtline> 
+    <grossamtln dt:dt="number">27433.88</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-98.76</discamt> 
+    <chargetext>65641-0020-7123 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">70</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27616.55</netamtline> 
+    <grossamtln dt:dt="number">27723.06</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-106.51</discamt> 
+    <chargetext>65641-0001-7216 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">71</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28490.35</netamtline> 
+    <grossamtln dt:dt="number">28604.32</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-113.97</discamt> 
+    <chargetext>65641-0021-8326 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">72</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">30664.10</netamtline> 
+    <grossamtln dt:dt="number">30779.80</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-115.70</discamt> 
+    <chargetext>65641-0075-8463 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">73</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25521.92</netamtline> 
+    <grossamtln dt:dt="number">25616.44</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-94.52</discamt> 
+    <chargetext>65641-0040-8473 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">74</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25728.86</netamtline> 
+    <grossamtln dt:dt="number">25829.94</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-101.08</discamt> 
+    <chargetext>65641-0041-8593 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">75</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29317.19</netamtline> 
+    <grossamtln dt:dt="number">29434.22</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-117.03</discamt> 
+    <chargetext>65641-0047-8663 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">619</invbtch> 
+    <transnbr dt:dt="number">76</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">23210.40</netamtline> 
+    <grossamtln dt:dt="number">23298.22</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-87.82</discamt> 
+    <chargetext>65641-0076-8664 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">620</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27688.28</netamtline> 
+    <grossamtln dt:dt="number">28110.72</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-422.44</discamt> 
+    <chargetext>65623-0003-3384 Contract Texa</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">620</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25348.45</netamtline> 
+    <grossamtln dt:dt="number">25761.50</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-413.05</discamt> 
+    <chargetext>65623-0001-4772 Contract Texa</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">620</invbtch> 
+    <transnbr dt:dt="number">3</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27792.98</netamtline> 
+    <grossamtln dt:dt="number">28286.12</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-493.14</discamt> 
+    <chargetext>65623-0002-4833 Contract Texa</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">621</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">192.46</netamtline> 
+    <grossamtln dt:dt="number">192.46</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65629-0001-1364 Market Tyso</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">621</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25685.46</netamtline> 
+    <grossamtln dt:dt="number">25814.54</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-129.08</discamt> 
+    <chargetext>65629-0001-1765 Market Tyso</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">621</invbtch> 
+    <transnbr dt:dt="number">3</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">61.88</netamtline> 
+    <grossamtln dt:dt="number">61.88</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65629-0001-4263 Market Tyso</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">622</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">380.00</netamtline> 
+    <grossamtln dt:dt="number">380.00</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65631-0002 Casper Express Inc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152908</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">623</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">580.00</netamtline> 
+    <grossamtln dt:dt="number">580.00</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65631-0004 Hager Bros</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152908</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">624</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">310.00</netamtline> 
+    <grossamtln dt:dt="number">310.00</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65631-0001 Texas Farm,LLC.</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152908</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">624</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">310.00</netamtline> 
+    <grossamtln dt:dt="number">310.00</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65631-0003 Texas Farm,LLC.</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152908</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">625</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">40.00</netamtline> 
+    <grossamtln dt:dt="number">40.00</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65642-0099 Pig Express</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152908</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">626</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">23964.41</netamtline> 
+    <grossamtln dt:dt="number">24060.65</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-96.24</discamt> 
+    <chargetext>65633-0005-1383 Contract Hitc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">626</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27201.15</netamtline> 
+    <grossamtln dt:dt="number">27310.39</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-109.24</discamt> 
+    <chargetext>65633-0001-1625 Contract Hitc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">626</invbtch> 
+    <transnbr dt:dt="number">3</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26918.31</netamtline> 
+    <grossamtln dt:dt="number">27026.41</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-108.10</discamt> 
+    <chargetext>65633-0004-1788 Contract Hitc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">626</invbtch> 
+    <transnbr dt:dt="number">4</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27368.18</netamtline> 
+    <grossamtln dt:dt="number">27478.09</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-109.91</discamt> 
+    <chargetext>65633-0003-2744 Contract Hitc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">626</invbtch> 
+    <transnbr dt:dt="number">5</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26234.63</netamtline> 
+    <grossamtln dt:dt="number">26339.99</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-105.36</discamt> 
+    <chargetext>65633-0002-6848 Contract Hitc</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">627</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29205.48</netamtline> 
+    <grossamtln dt:dt="number">29322.77</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-117.29</discamt> 
+    <chargetext>65630-0004-1263 Contract Kans</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">627</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26547.56</netamtline> 
+    <grossamtln dt:dt="number">26654.18</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-106.62</discamt> 
+    <chargetext>65630-0002-3455 Contract Kans</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">627</invbtch> 
+    <transnbr dt:dt="number">3</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">24490.52</netamtline> 
+    <grossamtln dt:dt="number">24588.88</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-98.36</discamt> 
+    <chargetext>65630-0001-4554 Contract Kans</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">627</invbtch> 
+    <transnbr dt:dt="number">4</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28909.42</netamtline> 
+    <grossamtln dt:dt="number">29025.52</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-116.10</discamt> 
+    <chargetext>65630-0003-4872 Contract Kans</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">628</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">14139.19</netamtline> 
+    <grossamtln dt:dt="number">14195.97</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-56.78</discamt> 
+    <chargetext>65634-0001-4864 Market Penn</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">628</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">18848.50</netamtline> 
+    <grossamtln dt:dt="number">18924.20</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-75.70</discamt> 
+    <chargetext>65634-0001-6284 Market Penn</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">629</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27452.00</netamtline> 
+    <grossamtln dt:dt="number">27562.25</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.25</discamt> 
+    <chargetext>65632-0004-1353 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">629</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26752.94</netamtline> 
+    <grossamtln dt:dt="number">26860.38</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-107.44</discamt> 
+    <chargetext>65632-0005-1623 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">629</invbtch> 
+    <transnbr dt:dt="number">3</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">24206.41</netamtline> 
+    <grossamtln dt:dt="number">24303.63</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-97.22</discamt> 
+    <chargetext>65632-0003-1753 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">629</invbtch> 
+    <transnbr dt:dt="number">4</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28825.89</netamtline> 
+    <grossamtln dt:dt="number">28941.66</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-115.77</discamt> 
+    <chargetext>65632-0002-2663 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">629</invbtch> 
+    <transnbr dt:dt="number">5</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29308.25</netamtline> 
+    <grossamtln dt:dt="number">29425.95</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-117.70</discamt> 
+    <chargetext>65632-0001-3192 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">629</invbtch> 
+    <transnbr dt:dt="number">6</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27372.00</netamtline> 
+    <grossamtln dt:dt="number">27481.93</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-109.93</discamt> 
+    <chargetext>65632-0007-4563 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">629</invbtch> 
+    <transnbr dt:dt="number">7</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27415.96</netamtline> 
+    <grossamtln dt:dt="number">27526.06</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.10</discamt> 
+    <chargetext>65632-0006-4733 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">629</invbtch> 
+    <transnbr dt:dt="number">8</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27641.98</netamtline> 
+    <grossamtln dt:dt="number">27752.99</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-111.01</discamt> 
+    <chargetext>65632-0011-5123 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">629</invbtch> 
+    <transnbr dt:dt="number">9</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26281.81</netamtline> 
+    <grossamtln dt:dt="number">26387.36</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-105.55</discamt> 
+    <chargetext>65632-0009-6578 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">629</invbtch> 
+    <transnbr dt:dt="number">10</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28070.61</netamtline> 
+    <grossamtln dt:dt="number">28183.34</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-112.73</discamt> 
+    <chargetext>65632-0010-7722 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">629</invbtch> 
+    <transnbr dt:dt="number">11</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25654.69</netamtline> 
+    <grossamtln dt:dt="number">25757.72</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-103.03</discamt> 
+    <chargetext>65632-0012-8483 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">629</invbtch> 
+    <transnbr dt:dt="number">12</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28644.60</netamtline> 
+    <grossamtln dt:dt="number">28759.64</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-115.04</discamt> 
+    <chargetext>65632-0008-8632 Contract PRES</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">630</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28499.70</netamtline> 
+    <grossamtln dt:dt="number">28612.77</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-113.07</discamt> 
+    <chargetext>65641-0089-3833 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">630</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27143.09</netamtline> 
+    <grossamtln dt:dt="number">27243.85</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-100.76</discamt> 
+    <chargetext>65641-0067-4623 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">630</invbtch> 
+    <transnbr dt:dt="number">3</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29291.88</netamtline> 
+    <grossamtln dt:dt="number">29407.61</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-115.73</discamt> 
+    <chargetext>65641-0082-4663 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">630</invbtch> 
+    <transnbr dt:dt="number">4</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28072.14</netamtline> 
+    <grossamtln dt:dt="number">28184.38</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-112.24</discamt> 
+    <chargetext>65641-0085-4843 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">630</invbtch> 
+    <transnbr dt:dt="number">5</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28198.96</netamtline> 
+    <grossamtln dt:dt="number">28302.06</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-103.10</discamt> 
+    <chargetext>65641-0074-5283 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">630</invbtch> 
+    <transnbr dt:dt="number">6</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29702.53</netamtline> 
+    <grossamtln dt:dt="number">29818.59</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-116.06</discamt> 
+    <chargetext>65641-0084-5355 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">630</invbtch> 
+    <transnbr dt:dt="number">7</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">19709.83</netamtline> 
+    <grossamtln dt:dt="number">19786.63</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-76.80</discamt> 
+    <chargetext>65641-0090-5819 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">630</invbtch> 
+    <transnbr dt:dt="number">8</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28319.62</netamtline> 
+    <grossamtln dt:dt="number">28432.82</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-113.20</discamt> 
+    <chargetext>65641-0087-6312 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">630</invbtch> 
+    <transnbr dt:dt="number">9</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27190.54</netamtline> 
+    <grossamtln dt:dt="number">27289.58</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-99.04</discamt> 
+    <chargetext>65641-0070-7368 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29433.09</netamtline> 
+    <grossamtln dt:dt="number">29548.60</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-115.51</discamt> 
+    <chargetext>65642-0049-1123 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29005.64</netamtline> 
+    <grossamtln dt:dt="number">29117.34</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-111.70</discamt> 
+    <chargetext>65642-0077-1196 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">3</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29339.06</netamtline> 
+    <grossamtln dt:dt="number">29451.54</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-112.48</discamt> 
+    <chargetext>65642-0067-1223 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">4</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29126.35</netamtline> 
+    <grossamtln dt:dt="number">29241.77</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-115.42</discamt> 
+    <chargetext>65642-0047-1286 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">5</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29983.68</netamtline> 
+    <grossamtln dt:dt="number">30103.07</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-119.39</discamt> 
+    <chargetext>65642-0026-1289 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">6</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28993.96</netamtline> 
+    <grossamtln dt:dt="number">29110.87</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-116.91</discamt> 
+    <chargetext>65642-0002-1293 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">7</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28064.65</netamtline> 
+    <grossamtln dt:dt="number">28173.11</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-108.46</discamt> 
+    <chargetext>65642-0040-1344 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">8</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27226.03</netamtline> 
+    <grossamtln dt:dt="number">27325.33</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-99.30</discamt> 
+    <chargetext>65642-0021-1355 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">9</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29213.99</netamtline> 
+    <grossamtln dt:dt="number">29327.57</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-113.58</discamt> 
+    <chargetext>65642-0043-1384 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">10</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26924.33</netamtline> 
+    <grossamtln dt:dt="number">27026.90</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-102.57</discamt> 
+    <chargetext>65642-0019-1437 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">11</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29109.87</netamtline> 
+    <grossamtln dt:dt="number">29225.19</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-115.32</discamt> 
+    <chargetext>65642-0032-1443 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">12</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26511.74</netamtline> 
+    <grossamtln dt:dt="number">26609.92</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-98.18</discamt> 
+    <chargetext>65642-0027-1452 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">13</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28781.11</netamtline> 
+    <grossamtln dt:dt="number">28897.70</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-116.59</discamt> 
+    <chargetext>65642-0025-1513 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">14</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28983.61</netamtline> 
+    <grossamtln dt:dt="number">29093.37</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-109.76</discamt> 
+    <chargetext>65642-0085-1565 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">15</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29562.24</netamtline> 
+    <grossamtln dt:dt="number">29675.18</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-112.94</discamt> 
+    <chargetext>65642-0090-1566 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">16</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29883.13</netamtline> 
+    <grossamtln dt:dt="number">29998.08</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-114.95</discamt> 
+    <chargetext>65642-0008-1568 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">17</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25419.44</netamtline> 
+    <grossamtln dt:dt="number">25512.10</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-92.66</discamt> 
+    <chargetext>65642-0012-1594 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">18</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">49.05</netamtline> 
+    <grossamtln dt:dt="number">49.05</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65642-0074-1637 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">19</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28400.01</netamtline> 
+    <grossamtln dt:dt="number">28510.20</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.19</discamt> 
+    <chargetext>65642-0041-1643 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">20</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">262.65</netamtline> 
+    <grossamtln dt:dt="number">262.65</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65642-0042-1644 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">21</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">30460.61</netamtline> 
+    <grossamtln dt:dt="number">30578.17</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-117.56</discamt> 
+    <chargetext>65642-0033-1648 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">22</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29504.52</netamtline> 
+    <grossamtln dt:dt="number">29621.76</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-117.24</discamt> 
+    <chargetext>65642-0046-1693 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">23</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29521.03</netamtline> 
+    <grossamtln dt:dt="number">29635.84</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-114.81</discamt> 
+    <chargetext>65642-0004-1694 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">24</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28577.65</netamtline> 
+    <grossamtln dt:dt="number">28688.45</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.80</discamt> 
+    <chargetext>65642-0094-1752 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">25</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">30492.27</netamtline> 
+    <grossamtln dt:dt="number">30610.21</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-117.94</discamt> 
+    <chargetext>65642-0058-1858 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">26</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28761.07</netamtline> 
+    <grossamtln dt:dt="number">28868.17</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-107.10</discamt> 
+    <chargetext>65642-0006-1882 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">27</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28857.40</netamtline> 
+    <grossamtln dt:dt="number">28966.65</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-109.25</discamt> 
+    <chargetext>65642-0082-1883 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">28</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29584.65</netamtline> 
+    <grossamtln dt:dt="number">29697.92</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-113.27</discamt> 
+    <chargetext>65642-0072-1885 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">29</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28392.55</netamtline> 
+    <grossamtln dt:dt="number">28501.07</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-108.52</discamt> 
+    <chargetext>65642-0089-1925 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">30</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">245.35</netamtline> 
+    <grossamtln dt:dt="number">245.35</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65642-0048-1968 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">31</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">3599.03</netamtline> 
+    <grossamtln dt:dt="number">3652.87</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-53.84</discamt> 
+    <chargetext>65642-0099-2132 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">32</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28954.65</netamtline> 
+    <grossamtln dt:dt="number">29069.13</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-114.48</discamt> 
+    <chargetext>65642-0083-2144 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">33</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29935.84</netamtline> 
+    <grossamtln dt:dt="number">30052.75</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-116.91</discamt> 
+    <chargetext>65642-0066-2163 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">34</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26394.02</netamtline> 
+    <grossamtln dt:dt="number">26492.62</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-98.60</discamt> 
+    <chargetext>65642-0069-2176 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">35</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26571.98</netamtline> 
+    <grossamtln dt:dt="number">26671.09</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-99.11</discamt> 
+    <chargetext>65642-0048-2268 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">36</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29869.03</netamtline> 
+    <grossamtln dt:dt="number">29981.48</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-112.45</discamt> 
+    <chargetext>65642-0055-2338 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">37</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29111.66</netamtline> 
+    <grossamtln dt:dt="number">29223.71</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-112.05</discamt> 
+    <chargetext>65642-0076-2342 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">38</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27224.08</netamtline> 
+    <grossamtln dt:dt="number">27324.26</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-100.18</discamt> 
+    <chargetext>65642-0023-2344 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">39</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">6072.17</netamtline> 
+    <grossamtln dt:dt="number">6095.58</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-23.41</discamt> 
+    <chargetext>65642-0093-2394 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">40</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27640.16</netamtline> 
+    <grossamtln dt:dt="number">27742.54</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-102.38</discamt> 
+    <chargetext>65642-0038-2523 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">41</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">30182.03</netamtline> 
+    <grossamtln dt:dt="number">30300.77</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-118.74</discamt> 
+    <chargetext>65642-0029-2583 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">42</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27437.96</netamtline> 
+    <grossamtln dt:dt="number">27544.31</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-106.35</discamt> 
+    <chargetext>65642-0035-2592 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">43</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">23656.85</netamtline> 
+    <grossamtln dt:dt="number">23749.42</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-92.57</discamt> 
+    <chargetext>65642-0020-2673 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">44</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28469.70</netamtline> 
+    <grossamtln dt:dt="number">28580.63</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.93</discamt> 
+    <chargetext>65642-0036-2723 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">45</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29593.63</netamtline> 
+    <grossamtln dt:dt="number">29704.61</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.98</discamt> 
+    <chargetext>65642-0005-2734 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">46</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28177.11</netamtline> 
+    <grossamtln dt:dt="number">28290.47</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-113.36</discamt> 
+    <chargetext>65642-0028-2752 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">47</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29119.96</netamtline> 
+    <grossamtln dt:dt="number">29230.56</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.60</discamt> 
+    <chargetext>65642-0030-2763 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">48</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27399.25</netamtline> 
+    <grossamtln dt:dt="number">27499.43</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-100.18</discamt> 
+    <chargetext>65642-0070-2883 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">49</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">22777.84</netamtline> 
+    <grossamtln dt:dt="number">22866.98</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-89.14</discamt> 
+    <chargetext>65642-0042-3168 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">50</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28376.86</netamtline> 
+    <grossamtln dt:dt="number">28483.97</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-107.11</discamt> 
+    <chargetext>65642-0051-3169 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">51</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28927.92</netamtline> 
+    <grossamtln dt:dt="number">29040.36</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-112.44</discamt> 
+    <chargetext>65642-0007-3344 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">52</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">20713.75</netamtline> 
+    <grossamtln dt:dt="number">20793.09</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-79.34</discamt> 
+    <chargetext>65642-0018-3432 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">53</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">21649.72</netamtline> 
+    <grossamtln dt:dt="number">21729.95</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-80.23</discamt> 
+    <chargetext>65642-0056-3564 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">54</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27458.02</netamtline> 
+    <grossamtln dt:dt="number">27560.96</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-102.94</discamt> 
+    <chargetext>65642-0014-3664 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">55</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">68.47</netamtline> 
+    <grossamtln dt:dt="number">68.47</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65642-0080-3674 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">56</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28658.59</netamtline> 
+    <grossamtln dt:dt="number">28772.45</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-113.86</discamt> 
+    <chargetext>65642-0044-3712 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">57</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">24343.68</netamtline> 
+    <grossamtln dt:dt="number">24434.80</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-91.12</discamt> 
+    <chargetext>65642-0074-3913 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">58</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29396.53</netamtline> 
+    <grossamtln dt:dt="number">29510.45</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-113.92</discamt> 
+    <chargetext>65642-0068-4144 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">59</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26464.54</netamtline> 
+    <grossamtln dt:dt="number">26561.36</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-96.82</discamt> 
+    <chargetext>65642-0075-4172 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">60</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28343.15</netamtline> 
+    <grossamtln dt:dt="number">28452.84</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-109.69</discamt> 
+    <chargetext>65642-0086-4183 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">61</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">12951.91</netamtline> 
+    <grossamtln dt:dt="number">13002.24</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-50.33</discamt> 
+    <chargetext>65642-0054-4256 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">62</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28064.69</netamtline> 
+    <grossamtln dt:dt="number">28177.40</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-112.71</discamt> 
+    <chargetext>65642-0003-4261 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">63</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27324.58</netamtline> 
+    <grossamtln dt:dt="number">27428.27</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-103.69</discamt> 
+    <chargetext>65642-0016-4278 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">64</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">18247.09</netamtline> 
+    <grossamtln dt:dt="number">18314.10</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-67.01</discamt> 
+    <chargetext>65642-0024-4346 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">65</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28127.45</netamtline> 
+    <grossamtln dt:dt="number">28235.25</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-107.80</discamt> 
+    <chargetext>65642-0037-4455 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">66</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">8238.11</netamtline> 
+    <grossamtln dt:dt="number">8268.72</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-30.61</discamt> 
+    <chargetext>65642-0078-4565 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">67</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28542.12</netamtline> 
+    <grossamtln dt:dt="number">28650.34</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-108.22</discamt> 
+    <chargetext>65642-0079-4598 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">68</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27936.03</netamtline> 
+    <grossamtln dt:dt="number">28042.60</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-106.57</discamt> 
+    <chargetext>65642-0034-4643 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">69</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28358.60</netamtline> 
+    <grossamtln dt:dt="number">28467.52</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-108.92</discamt> 
+    <chargetext>65642-0010-4786 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">70</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29775.16</netamtline> 
+    <grossamtln dt:dt="number">29891.47</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-116.31</discamt> 
+    <chargetext>65642-0053-4856 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">71</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26594.93</netamtline> 
+    <grossamtln dt:dt="number">26695.35</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-100.42</discamt> 
+    <chargetext>65642-0017-4863 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">72</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28629.52</netamtline> 
+    <grossamtln dt:dt="number">28742.18</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-112.66</discamt> 
+    <chargetext>65642-0050-5284 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">73</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27822.68</netamtline> 
+    <grossamtln dt:dt="number">27921.56</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-98.88</discamt> 
+    <chargetext>65642-0060-5291 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">74</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27322.69</netamtline> 
+    <grossamtln dt:dt="number">27425.59</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-102.90</discamt> 
+    <chargetext>65642-0039-5439 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">75</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">25264.98</netamtline> 
+    <grossamtln dt:dt="number">25359.12</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-94.14</discamt> 
+    <chargetext>65642-0013-5796 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">76</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28294.13</netamtline> 
+    <grossamtln dt:dt="number">28395.62</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-101.49</discamt> 
+    <chargetext>65642-0057-5916 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">77</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29330.17</netamtline> 
+    <grossamtln dt:dt="number">29443.22</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-113.05</discamt> 
+    <chargetext>65642-0080-5963 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">78</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">30049.47</netamtline> 
+    <grossamtln dt:dt="number">30163.17</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-113.70</discamt> 
+    <chargetext>65642-0061-6243 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">79</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">30549.80</netamtline> 
+    <grossamtln dt:dt="number">30669.89</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-120.09</discamt> 
+    <chargetext>65642-0031-6355 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">80</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27381.03</netamtline> 
+    <grossamtln dt:dt="number">27482.79</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-101.76</discamt> 
+    <chargetext>65642-0045-6579 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">81</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29098.64</netamtline> 
+    <grossamtln dt:dt="number">29209.01</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.37</discamt> 
+    <chargetext>65642-0009-6622 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">82</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29319.46</netamtline> 
+    <grossamtln dt:dt="number">29432.54</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-113.08</discamt> 
+    <chargetext>65642-0064-6695 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">83</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28839.24</netamtline> 
+    <grossamtln dt:dt="number">28949.77</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-110.53</discamt> 
+    <chargetext>65642-0096-6752 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">84</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28722.21</netamtline> 
+    <grossamtln dt:dt="number">28830.39</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-108.18</discamt> 
+    <chargetext>65642-0073-6919 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">85</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27962.32</netamtline> 
+    <grossamtln dt:dt="number">28063.34</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-101.02</discamt> 
+    <chargetext>65642-0062-7128 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">86</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">9232.33</netamtline> 
+    <grossamtln dt:dt="number">9267.28</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-34.95</discamt> 
+    <chargetext>65642-0071-7136 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">87</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28298.99</netamtline> 
+    <grossamtln dt:dt="number">28404.50</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-105.51</discamt> 
+    <chargetext>65642-0088-7223 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">88</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28164.86</netamtline> 
+    <grossamtln dt:dt="number">28272.38</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-107.52</discamt> 
+    <chargetext>65642-0022-7258 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">89</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27393.58</netamtline> 
+    <grossamtln dt:dt="number">27494.70</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-101.12</discamt> 
+    <chargetext>65642-0011-7674 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">90</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">30601.43</netamtline> 
+    <grossamtln dt:dt="number">30719.98</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-118.55</discamt> 
+    <chargetext>65642-0063-7853 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">91</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28965.57</netamtline> 
+    <grossamtln dt:dt="number">29079.68</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-114.11</discamt> 
+    <chargetext>65642-0059-7856 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">92</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28763.95</netamtline> 
+    <grossamtln dt:dt="number">28870.71</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-106.76</discamt> 
+    <chargetext>65642-0097-8188 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">93</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">24949.50</netamtline> 
+    <grossamtln dt:dt="number">25043.38</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-93.88</discamt> 
+    <chargetext>65642-0015-8344 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">94</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">27023.64</netamtline> 
+    <grossamtln dt:dt="number">27124.01</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-100.37</discamt> 
+    <chargetext>65642-0052-8363 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">95</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">70.51</netamtline> 
+    <grossamtln dt:dt="number">70.51</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">.00</discamt> 
+    <chargetext>65642-0013-8438 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">631</invbtch> 
+    <transnbr dt:dt="number">96</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26825.91</netamtline> 
+    <grossamtln dt:dt="number">26924.46</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-98.55</discamt> 
+    <chargetext>65642-0065-8723 Contract Seab</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">632</invbtch> 
+    <transnbr dt:dt="number">1</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">26482.87</netamtline> 
+    <grossamtln dt:dt="number">26970.75</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-487.88</discamt> 
+    <chargetext>65631-0002-1325 Contract Texa</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">632</invbtch> 
+    <transnbr dt:dt="number">2</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">28268.59</netamtline> 
+    <grossamtln dt:dt="number">28693.36</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-424.77</discamt> 
+    <chargetext>65631-0003-3723 Contract Texa</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">632</invbtch> 
+    <transnbr dt:dt="number">3</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">29207.90</netamtline> 
+    <grossamtln dt:dt="number">29636.44</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-428.54</discamt> 
+    <chargetext>65631-0001-5742 Contract Texa</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbtch dt:dt="number">632</invbtch> 
+    <transnbr dt:dt="number">4</transnbr> 
+    <linetype dt:dt="number">0</linetype> 
+    <netamtline dt:dt="number">30474.01</netamtline> 
+    <grossamtln dt:dt="number">31178.73</grossamtln> 
+    <adjamount dt:dt="number">.00</adjamount> 
+    <discamt dt:dt="number">-704.72</discamt> 
+    <chargetext>65631-0004-7272 Contract Texa</chargetext> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime>
+  </viewfmt>
+</plcdcpp>

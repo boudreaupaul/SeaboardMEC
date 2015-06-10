@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProcessSBD_APVoucher xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ApplicationArea>
+		<Sender>
+			<LogicalID>infor.seb.seaboardraw</LogicalID>
+			<ComponentID>SBD_HPE</ComponentID>
+			<TaskID>Not Used</TaskID>
+			<ConfirmationCode>OnError</ConfirmationCode>
+		</Sender>
+		<CreationDateTime>2015-06-02T14:31:18.000000000</CreationDateTime>
+		<BODID>HPE:360:81004606/02/201514:31:14.000000</BODID>
+	</ApplicationArea>
+	<DataArea>
+		<Process>
+			<TenantID>infor</TenantID>
+			<AccountingEntityID>ae1</AccountingEntityID>
+			<Location>loc1</Location>
+			<ActionCriteria>
+				<ActionExpression/>
+			</ActionCriteria>
+		</Process>
+		<SBD_APVoucher>
+			<ID>1001309</ID>
+			<company>4</company>
+			<division>360</division>
+			<invbatch>2090</invbatch>
+			<payee>810046</payee>
+			<supplier>810046</supplier>
+			<supplierInvoice>65730-0002</supplierInvoice>
+			<invbtchtyp>20</invbtchtyp>
+			<invstatus>10</invstatus>
+			<invdate>2015-05-29T00:00:00.000000000</invdate>
+			<currency>USD</currency>
+			<paymentTerm>N30</paymentTerm>
+			<amountNet currencyID="USD">380.000000000</amountNet>
+			<cashDiscountBasis currencyID="USD">0</cashDiscountBasis>
+			<foreignCurAmount currencyID="USD">380.000000000</foreignCurAmount>
+			<totalCharge currencyID="USD">0</totalCharge>
+			<totalDue currencyID="USD">380.000000000</totalDue>
+			<invMatch>0</invMatch>
+			<payMethd>CHM</payMethd>
+			<vchnbrser>HPE</vchnbrser>
+			<vchnbr>1001309</vchnbr>
+			<description>Casper Express Inc</description>
+			<exchRateType>1</exchRateType>
+			<poNumber/>
+			<cashDiscTerm/>
+			<getPaydft>1</getPaydft>
+			<jobNumber>837576</jobNumber>
+			<jobName>PLW4XFR</jobName>
+			<entryDate>2015-06-02T00:00:00.000000000</entryDate>
+			<entryTime>90028</entryTime>
+			<reference/>
+			<SBD_APVoucherAddlInfo>
+				<company>4</company>
+				<division>360</division>
+				<invbatch>2090</invbatch>
+				<addlcateg>412</addlcateg>
+				<addlinfo>CE</addlinfo>
+				<infseq>1</infseq>
+				<textid>0</textid>
+				<timestamp/>
+				<entrydt/>
+				<entrytm>90028</entrytm>
+				<changeddt>0</changeddt>
+				<changenbr>0</changenbr>
+				<changeby>ISRCENT   </changeby>
+			</SBD_APVoucherAddlInfo>
+		</SBD_APVoucher>
+	</DataArea>
+</ProcessSBD_APVoucher>

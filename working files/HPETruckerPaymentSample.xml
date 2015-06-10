@@ -1,0 +1,68 @@
+<ProcessSBD_APVoucher><ApplicationArea><Sender>
+                  <LogicalID>infor.seb.seaboardraw</LogicalID>
+                  <ComponentID>SBD_HPE</ComponentID>
+                  <TaskID>Not Used</TaskID>
+                  <ConfirmationCode>OnError</ConfirmationCode>
+            </Sender>
+                        <CreationDateTime>2015-05-22T14:05:32.963</CreationDateTime>
+                        <BODID>KH_HPE:5679:2015-05-22T14:05:32.963</BODID>
+      </ApplicationArea>
+      <DataArea>
+            <Process>
+                  <TenantID>infor</TenantID>
+                  <AccountingEntityID>1_733</AccountingEntityID>
+                  <Location></Location>
+                  <ActionCriteria>
+                        <ActionExpression actionCode="Add"/>
+                  </ActionCriteria>
+            </Process>
+            <SBD_APVoucher>
+				<ID accountingEntity="350" logicalID="infor.sbraw.ssss">1-350-609-802231</ID>
+                  <company>4</company>
+                  <division>360</division>
+                  <invbatch>609</invbatch>
+                  <payee>802231</payee>
+                  <supplier>802231</supplier>
+                  <supplierInvoice>65711-0001-1833</supplierInvoice>
+                  <invbtchtyp>20</invbtchtyp>
+                  <invstatus>10</invstatus>
+                  <invdate>20150522</invdate>
+                  <currency>USD</currency>
+                  <paymentTerm>N30</paymentTerm>
+                  <amountNet currencyID="USD">25260.27</amountNet>
+                  <cashDiscountBasis currencyID="USD">0</cashDiscountBasis>
+                  <foreignCurAmount currencyID="USD">25260.27</foreignCurAmount>
+                  <totalCharge currencyID="USD">0</totalCharge>
+                  <totalDue currencyID="USD">25260.27</totalDue>
+                  <invMatch>0</invMatch>
+                  <payMethd>HPE</payMethd>
+                  <vchnbrser>HPE</vchnbrser>
+                  <vchnbr>1000609</vchnbr>
+                  <description>Hitch Feeders</description>
+                  <exchRateType>01</exchRateType>
+                  <poNumber/>
+                  <cashDiscTerm/>
+                  <getPaydft>1</getPaydft>
+                  <jobNumber>388535</jobNumber>
+                  <jobName>PLW4XFR</jobName>
+                  <entryDate>20150522</entryDate>
+                  <entryTime>120902</entryTime>
+                  <reference>Hitch Feeders</reference>  
+			      <SBD_APVoucherAddlInfo> 
+				     <company>4</company>
+                     <division>360</division>
+                     <invbatch>609</invbatch>
+				     <addlcateg>412</addlcateg>
+				      <addlinfo>HITCH</addlinfo> 
+                      <infseq>1</infseq> 
+                     <textid>0</textid> 
+                     <timestamp>0</timestamp> 
+                     <entrydt>20150522</entrydt> 
+                     <entrytm>120902</entrytm> 
+                     <changeddt>0</changeddt> 
+                     <changenbr>0</changenbr> 
+                    <changeby>ISRCENT</changeby>  
+		     	</SBD_APVoucherAddlInfo>
+            </SBD_APVoucher>
+      </DataArea>
+</ProcessSBD_APVoucher>

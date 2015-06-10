@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        
+        ** OAGIS® Revision: 9.1  **
+        ** Date: 11 May 2007 **
+        ** Copyright 1997-2007, All Rights Reserved **
+        
+        This is an OAGIS® BOD XML Schema (XSD) Definition.
+        
+       License information for this file is provided in the file **OAGi License Agreement.txt** that is provided with this download package.
+        
+        For support, more information, or to report implementation bugs, please contact the Open Applications Group at xml@openapplications.org.
+        
+        XML Schema 
+        
+-->
+ 
+<!--
+© Copyright 2007 Infor Global Solutions Technology GmbH and/or its affiliates and subsidiaries. All rights reserved. The 
+word and design marks set forth herein are trademarks and/or registered trademarks of Infor Global Solutions 
+Technology GmbH and/or its affiliates and subsidiaries. All rights reserved. All other trademarks listed herein 
+are the property of their respective owners.
+ 
+-->
+ 
+<!--    *****     Update Log     *****
+ 
+Date          By      Note
+08 Oct 2009   PO      Added new noun based upon Invoice.
+08 Oct 2012   NO      Added OrderLineTypeCode and OrderLineCategoryCode CodeTypes (BOD-2014)
+
+        *****     Update End     *****
+ 
+-->
+
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schema.infor.com/InforOAGIS/2" targetNamespace="http://schema.infor.com/InforOAGIS/2" elementFormDefault="qualified">
+	<xsd:include schemaLocation="../Components/Operational/OrderManagementComponents.xsd"/>
+	
+	<xsd:element name="SupplierInvoice" type="SupplierInvoiceType">
+		<xsd:annotation>
+			<xsd:documentation source="http://schema.infor.com/InforOAGIS/2">The Invoice is used to invoice a customer for goods/services the have been provided.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SupplierInvoiceHeader" type="SupplierInvoiceHeaderType">
+		<xsd:annotation>
+			<xsd:documentation source="http://schema.infor.com/InforOAGIS/2">Information that applies to the entire invoice document. The Header supports summary amounts for line items, charges, taxes and allowances.
+
+It also supports itemizing Header level charges, taxes and allowances for use in credit or debit invoices. In this case Line items are not needed. 
+
+The summary amounts in the Header include the Line level amounts and Header level amounts.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="SupplierInvoiceLine" type="SupplierInvoiceLineType">
+		<xsd:annotation>
+			<xsd:documentation source="http://schema.infor.com/InforOAGIS/2">In general an Invoice Line can be aligned with Order Lines. The ItemQuantity and Price are used to compute the Total. The Total is a sum of the Total and any Charges, Taxes or Allowances.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:element name="InvoiceSubLine" type="SupplierInvoiceSubLineType">
+		<xsd:annotation>
+			<xsd:documentation source="http://schema.infor.com/InforOAGIS/2">Is a SubLine of the InvoiceLine in order to provide a finer grained breakdown of the items being invoiced.</xsd:documentation>
+		</xsd:annotation>
+	</xsd:element>
+	<xsd:complexType name="SupplierInvoiceType">
+		<xsd:sequence>
+			<xsd:element ref="SupplierInvoiceHeader" minOccurs="0"/>
+			<xsd:element ref="SupplierInvoiceLine" minOccurs="0" maxOccurs="unbounded"/>
+		</xsd:sequence>
+		<xsd:attribute name="type" type="NormalizedStringType"/>
+	</xsd:complexType>
+	<xsd:complexType name="SupplierInvoiceHeaderType">
+		<xsd:annotation>
+			<xsd:documentation source="http://schema.infor.com/InforOAGIS/2">The InvoiceHeader type supports summary amounts for line items, charges and allowances.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="HeaderType">
+				<xsd:sequence>
+					<xsd:element ref="ExtendedAmount" minOccurs="0"/>
+					<xsd:element ref="ExtendedBaseAmount" minOccurs="0"/>
+					<xsd:element ref="ExtendedReportAmount" minOccurs="0"/>
+					<xsd:element ref="TotalAmount" minOccurs="0"/>
+					<xsd:element ref="TotalBaseAmount" minOccurs="0"/>
+					<xsd:element ref="TotalReportAmount" minOccurs="0"/>
+					<xsd:element ref="SupplierParty" minOccurs="0"/>
+					<xsd:element ref="CustomerParty" minOccurs="0"/>
+					<xsd:element ref="RemitToParty" minOccurs="0"/>
+					<xsd:element ref="Party" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="ReasonCode" minOccurs="0">
+						<xsd:annotation>
+							<xsd:documentation source="http://schema.infor.com/InforOAGIS/2">A code for the invoice.Example: Special allowance for preferred customers.</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element ref="PurchaseOrderReference" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="ContractReference" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="PaymentTerm" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="Tax" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="Charge" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="Allowance" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="UserArea" minOccurs="0"/>
+					<xsd:element ref="Status"/>
+					<xsd:element ref="ChargeIndicator" minOccurs="0" maxOccurs="1"/>
+					<xsd:element ref="BaseCurrencyAmount" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="SelfBillingIndicator" minOccurs="0"/>
+					<xsd:element ref="ShipToParty" minOccurs="0"/>
+					<xsd:element ref="BillToParty" minOccurs="0"/>
+					<xsd:element ref="PayFromParty" minOccurs="0"/>
+					<xsd:element ref="ShipFromParty" minOccurs="0"/>
+					<xsd:element ref="NatureOfTransaction" minOccurs="0"/>
+					<xsd:element ref="Reference" minOccurs="0" maxOccurs="unbounded"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="SupplierInvoiceLineBaseType">
+		<xsd:complexContent>
+			<xsd:extension base="LineType">
+				<xsd:sequence>
+					<xsd:element ref="Item" minOccurs="0"/>
+					<xsd:element ref="Quantity" minOccurs="0">
+						<xsd:annotation>
+							<xsd:documentation source="http://schema.infor.com/InforOAGIS/2">Indicates the number of order items for the given line..</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element ref="BaseUOMQuantity" minOccurs="0"/>
+					<xsd:element ref="UnitPrice" minOccurs="0">
+						<xsd:annotation>
+							<xsd:documentation source="http://schema.infor.com/InforOAGIS/2">Unit price of the item for the number of items in the unitCode specified in the PerQuantity elements.
+
+In most cases the unitCode of the PerQuantity is the same as the unitCode of the Quantity element above.</xsd:documentation>
+							<xsd:documentation source="http://schema.infor.com/InforOAGIS/2">Unit price of the item for the number of items in the unitCode specified in the PerQuantity elements.
+
+In most cases the unitCode of the PerQuantity is the same as the unitCode of the Quantity element above.</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element ref="PurchaseOrderReference" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="ContractReference" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="ExtendedAmount" minOccurs="0"/>
+					<xsd:element ref="ExtendedBaseAmount" minOccurs="0"/>
+					<xsd:element ref="ExtendedReportAmount" minOccurs="0"/>
+					<xsd:element ref="TotalAmount" minOccurs="0"/>
+					<xsd:element ref="TotalBaseAmount" minOccurs="0"/>
+					<xsd:element ref="TotalReportAmount" minOccurs="0"/>
+					<xsd:element ref="OpenItemIndicator" minOccurs="0">
+						<xsd:annotation>
+							<xsd:documentation source="http://schema.infor.com/InforOAGIS/2">Indicates that the line is an open item and is not to be included in the document total. </xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element ref="Tax" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="InvoiceCharge" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="InvoiceAllowance" minOccurs="0" maxOccurs="unbounded"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="SupplierInvoiceLineType">
+		<xsd:annotation>
+			<xsd:documentation source="http://schema.infor.com/InforOAGIS/2">The InvoiceLine type supports order line invoicing.</xsd:documentation>
+		</xsd:annotation>
+		<xsd:complexContent>
+			<xsd:extension base="SupplierInvoiceLineBaseType">
+				<xsd:sequence>
+					<xsd:element ref="InvoiceSubLine" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="UserArea" minOccurs="0"/>
+					<xsd:element ref="RequestedDeliveryDate" minOccurs="0"/>
+					<xsd:element ref="SupplierParty" minOccurs="0"/>
+					<xsd:element ref="CustomerParty" minOccurs="0"/>
+					<xsd:element ref="SalesOrderReference" minOccurs="0"/>
+					<xsd:element ref="ExtendedCost" minOccurs="0"/>
+					<xsd:element ref="BaseCurrencyAmount" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="ShipToParty" minOccurs="0"/>
+					<xsd:element ref="BillToParty" minOccurs="0"/>
+					<xsd:element ref="PayFromParty" minOccurs="0"/>
+					<xsd:element ref="ShipFromParty" minOccurs="0"/>
+					<xsd:element ref="RemitToParty" minOccurs="0"/>
+					<xsd:element ref="PricingAmount" minOccurs="0">
+						<xsd:annotation>
+							<xsd:documentation>Pricing amount for the current line.</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element ref="PricingBaseAmount" minOccurs="0"/>
+					<xsd:element ref="PricingReportAmount" minOccurs="0"/>
+					<xsd:element ref="Reference" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="OrderLineTypeCode" minOccurs="0"/>
+					<xsd:element ref="OrderLineCategoryCode" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="SupplierInvoiceSubLineType">
+		<xsd:complexContent>
+			<xsd:extension base="SupplierInvoiceLineBaseType">
+				<xsd:sequence>
+					<xsd:element ref="UserArea" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	<xsd:complexType name="SupplierInvoiceAllowanceChargeType">
+		<xsd:complexContent>
+			<xsd:extension base="AllowanceChargeABIEType">
+				<xsd:sequence>
+					<xsd:element ref="Party" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="UserArea" minOccurs="0"/>
+					<xsd:element ref="Name" minOccurs="0"/>
+					<xsd:element ref="Tax" minOccurs="0"/>
+					<xsd:element ref="UnitBasisAmount" minOccurs="0">
+						<xsd:annotation>
+							<xsd:documentation>The basis amount for each quantity of 1 of the unit
+								of measure.</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element ref="UnitBasisBaseAmount" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="UnitBasisReportAmount" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="UnitAdjustmentAmount" minOccurs="0">
+						<xsd:annotation>
+							<xsd:documentation>The amount of the adjustment for each quantity of 1
+								of the unit of measure.</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element ref="UnitAdjustmentBaseAmount" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="UnitAdjustmentReportAmount" minOccurs="0"
+						maxOccurs="unbounded"/>
+					<xsd:element ref="AdjustmentTypeCode" minOccurs="0">
+						<xsd:annotation>
+							<xsd:documentation>A code used to identify the purpose of an adjustment.
+								Could include codes for non-itemized and
+								pre-tax.</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element ref="AdjustmentGroupCode" minOccurs="0">
+						<xsd:annotation>
+							<xsd:documentation>A code used group charges or allowances together to
+								simplify posting for those systems that cannot or do not support a
+								full range of adjustments.</xsd:documentation>
+						</xsd:annotation>
+					</xsd:element>
+					<xsd:element ref="CalculationMethodCode" minOccurs="0"/>
+					<xsd:element ref="UnitCode" minOccurs="0"/>
+					<xsd:element ref="RateCurrency" minOccurs="0"/>
+					<xsd:element ref="GrossWeightIndicator" minOccurs="0"/>
+					<xsd:element ref="MinimumChargeAmount" minOccurs="0"/>
+					<xsd:element ref="MinimumChargeBaseAmount" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="MinimumChargeReportAmount" minOccurs="0" maxOccurs="unbounded"/>
+					<xsd:element ref="UnitBasisBaseCurrencyAmount" minOccurs="0"/>
+					<xsd:element ref="BaseCurrencyAmount" minOccurs="0"/>
+				</xsd:sequence>
+			</xsd:extension>
+		</xsd:complexContent>
+	</xsd:complexType>
+	
+	<xsd:element name="InvoiceCharge" type="ChargeType"/>
+</xsd:schema>

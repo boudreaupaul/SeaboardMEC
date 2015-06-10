@@ -1,0 +1,1238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2005 sp2 U (http://www.altova.com) by Katerina Aberg (Intentia R&D) -->
+<!--
+Version Log
+=============================================================
+Version 1 - Initial version
+=============================================================
+-->
+<BankRepository>
+	<Files>
+		<File>
+			<ID>1099_MISC_TaxReporting_FlatFileDefinition</ID>
+			<!--1099 - MISC Supplier Tax Reporting, outbound (APS430MI) -->
+			<Messages>
+				<Message>
+					<Name>USA_1099_MISC_TaxReportingType</Name>
+					<TagName>USA_1099_MISC_TaxReporting</TagName>
+					<DefaultPadding>
+						<Numeric>0</Numeric>
+						<Alpha> </Alpha>
+					</DefaultPadding>
+					<DefaultAlignment>
+						<Numeric>RIGHT</Numeric>
+						<Alpha>LEFT</Alpha>
+					</DefaultAlignment>
+					<EscapeChar/>
+					<RecordSeparator>\r\n</RecordSeparator>
+					<FieldSeparator/>
+					<Records>
+						<Record>
+							<Name>Record T</Name>
+							<TagName>RecordT</TagName>
+							<MinOccur>1</MinOccur>
+							<MaxOccur>1</MaxOccur>
+							<Fields>
+								<Field>
+									<Name>Record type</Name>
+									<TagName>RecordType</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>1</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Payment year</Name>
+									<TagName>PaymentYear</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>2</StartPos>
+									<Length>4</Length>
+								</Field>
+								<Field>
+									<Name>PriorYearInd</Name>
+									<TagName>PriorYearInd</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>6</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Transmitter 1</Name>
+									<TagName>Transmitter01</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>7</StartPos>
+									<Length>9</Length>
+								</Field>
+								<Field>
+									<Name>Transmitter code</Name>
+									<TagName>TransmitterCode</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>16</StartPos>
+									<Length>5</Length>
+								</Field>
+								<Field>
+									<Name>Filler 1</Name>
+									<TagName>Filler01</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>21</StartPos>
+									<Length>2</Length>
+								</Field>
+								<Field>
+									<Name>Filler 2</Name>
+									<TagName>Filler02</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>23</StartPos>
+									<Length>5</Length>
+								</Field>
+								<Field>
+									<Name>Test file indicator</Name>
+									<TagName>TestFileInd</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>28</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Filler 3</Name>
+									<TagName>Filler03</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>29</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Transmitter name</Name>
+									<TagName>TransmitterName</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>30</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Transmitter 2</Name>
+									<TagName>Transmitter02</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>70</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Company name 1</Name>
+									<TagName>CompanyName01</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>110</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Company name 2</Name>
+									<TagName>CompanyName02</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>150</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Company address</Name>
+									<TagName>CompanyAddress</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>190</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Company city</Name>
+									<TagName>CompanyCity</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>230</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Company state</Name>
+									<TagName>CompanyState</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>270</StartPos>
+									<Length>2</Length>
+								</Field>
+								<Field>
+									<Name>Company zip code</Name>
+									<TagName>CompanyZipCode</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>272</StartPos>
+									<Length>9</Length>
+								</Field>
+								<Field>
+									<Name>Filler 4</Name>
+									<TagName>Filler04</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>281</StartPos>
+									<Length>15</Length>
+								</Field>
+								<Field>
+									<Name>No of records B</Name>
+									<TagName>NoOfRecordsB</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>296</StartPos>
+									<Length>8</Length>
+								</Field>
+								<Field>
+									<Name>Contact name</Name>
+									<TagName>ContactName</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>304</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Contact phone no</Name>
+									<TagName>ContactPhoneNo</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>344</StartPos>
+									<Length>15</Length>
+								</Field>
+								<Field>
+									<Name>Contact Email address</Name>
+									<TagName>ContactEmailAddress</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>359</StartPos>
+									<Length>50</Length>
+								</Field>
+								<Field>
+									<Name>Filler 5</Name>
+									<TagName>Filler05</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>409</StartPos>
+									<Length>91</Length>
+								</Field>
+								<Field>
+									<Name>Record seq number</Name>
+									<TagName>RecordSeqNo</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>500</StartPos>
+									<Length>8</Length>
+								</Field>
+								<Field>
+									<Name>Filler 6</Name>
+									<TagName>Filler06</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>508</StartPos>
+									<Length>10</Length>
+								</Field>
+								<Field>
+									<Name>Vendor indicator</Name>
+									<TagName>VendorIndicator</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>518</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Vendor name</Name>
+									<TagName>VendorName</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>519</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Vendor mail address</Name>
+									<TagName>VendorMailAddress</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>559</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Vendor city</Name>
+									<TagName>VendorCity</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>599</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Vendor state</Name>
+									<TagName>VendorState</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>639</StartPos>
+									<Length>2</Length>
+								</Field>
+								<Field>
+									<Name>Vendor zip code</Name>
+									<TagName>VendorZipCode</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>641</StartPos>
+									<Length>9</Length>
+								</Field>
+								<Field>
+									<Name>Vendor contact name</Name>
+									<TagName>VendorContactName</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>650</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Vendor contact phone number</Name>
+									<TagName>VendorContactPhone</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>690</StartPos>
+									<Length>15</Length>
+								</Field>
+								<Field>
+									<Name>Filler 7</Name>
+									<TagName>Filler07</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>705</StartPos>
+									<Length>35</Length>
+								</Field>
+								<Field>
+									<Name>Vendor foreign entity indicator</Name>
+									<TagName>VendorForeignEntity</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>740</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Filler 8</Name>
+									<TagName>Filler08</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>741</StartPos>
+									<Length>8</Length>
+								</Field>
+								<Field>
+									<Name>Filler 9</Name>
+									<TagName>Filler09</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>749</StartPos>
+									<Length>2</Length>
+								</Field>
+							</Fields>
+						</Record>
+						<Record>
+							<Name>Record A</Name>
+							<TagName>RecordA</TagName>
+							<MinOccur>1</MinOccur>
+							<MaxOccur>1</MaxOccur>
+							<Fields>
+								<Field>
+									<Name>Record type</Name>
+									<TagName>RecordType</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>1</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Payment year</Name>
+									<TagName>PaymentYear</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>2</StartPos>
+									<Length>4</Length>
+								</Field>
+								<Field>
+									<Name>Filler 1</Name>
+									<TagName>Filler01</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>6</StartPos>
+									<Length>6</Length>
+								</Field>
+								<Field>
+									<Name>Payers tax Id</Name>
+									<TagName>PayersTaxId</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>12</StartPos>
+									<Length>9</Length>
+								</Field>
+								<Field>
+									<Name>Payer control name</Name>
+									<TagName>PayerControlName</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>21</StartPos>
+									<Length>4</Length>
+								</Field>
+								<Field>
+									<Name>Last file indicator</Name>
+									<TagName>LastFileInd</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>25</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Federal state filer</Name>
+									<TagName>FederalStateFiler</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>26</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Type of return</Name>
+									<TagName>TypeOfReturn</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>27</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Amount codes</Name>
+									<TagName>AmountCodes</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>28</StartPos>
+									<Length>14</Length>
+								</Field>
+								<Field>
+									<Name>Filler 2</Name>
+									<TagName>Filler02</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>42</StartPos>
+									<Length>10</Length>
+								</Field>
+								<Field>
+									<Name>Foreign entity indicator</Name>
+									<TagName>ForeignEntityInd</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>52</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Payer name 1</Name>
+									<TagName>PayerName01</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>53</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Payer name 2</Name>
+									<TagName>PayerName02</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>93</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Transfer agent indicator</Name>
+									<TagName>TransferAgentInd</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>133</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Payer ship address</Name>
+									<TagName>PayerShipAddress</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>134</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Payer city</Name>
+									<TagName>PayerCity</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>174</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Payer state</Name>
+									<TagName>PayerState</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>214</StartPos>
+									<Length>2</Length>
+								</Field>
+								<Field>
+									<Name>Payer zip code</Name>
+									<TagName>PayerZipCode</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>216</StartPos>
+									<Length>9</Length>
+								</Field>
+								<Field>
+									<Name>Payers phone number</Name>
+									<TagName>PayerPhoneNo</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>225</StartPos>
+									<Length>15</Length>
+								</Field>
+								<Field>
+									<Name>Filler 3</Name>
+									<TagName>Filler03</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>240</StartPos>
+									<Length>260</Length>
+								</Field>
+								<Field>
+									<Name>Record seq number</Name>
+									<TagName>RecordSeqNo</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>500</StartPos>
+									<Length>8</Length>
+								</Field>
+								<Field>
+									<Name>Filler 4</Name>
+									<TagName>Filler04</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>508</StartPos>
+									<Length>241</Length>
+								</Field>
+								<Field>
+									<Name>Filler 5</Name>
+									<TagName>Filler05</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>749</StartPos>
+									<Length>2</Length>
+								</Field>
+							</Fields>
+						</Record>
+						<Record>
+							<Name>Record B</Name>
+							<TagName>RecordB</TagName>
+							<MinOccur>0</MinOccur>
+							<MaxOccur>U</MaxOccur>
+							<Fields>
+								<Field>
+									<Name>Record type</Name>
+									<TagName>RecordType</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>1</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Payment year</Name>
+									<TagName>PaymentYear</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>2</StartPos>
+									<Length>4</Length>
+								</Field>
+								<Field>
+									<Name>Correct return indicator</Name>
+									<TagName>CorrectReturnInd</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>6</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Name control</Name>
+									<TagName>NameControl</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>7</StartPos>
+									<Length>4</Length>
+								</Field>
+								<Field>
+									<Name>Type of tin</Name>
+									<TagName>TypeOfTin</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>11</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Tax payers ID</Name>
+									<TagName>TaxPayersId</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>12</StartPos>
+									<Length>9</Length>
+								</Field>
+								<Field>
+									<Name>Payers account no</Name>
+									<TagName>PayersAccountNo</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>21</StartPos>
+									<Length>20</Length>
+								</Field>
+								<Field>
+									<Name>Payers code office</Name>
+									<TagName>PayersCodeOffice</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>41</StartPos>
+									<Length>4</Length>
+								</Field>
+								<Field>
+									<Name>Filler 1</Name>
+									<TagName>Filler01</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>45</StartPos>
+									<Length>10</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount 1</Name>
+									<TagName>PaymentAmount01</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>55</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount 2</Name>
+									<TagName>PaymentAmount02</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>67</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount 3</Name>
+									<TagName>PaymentAmount03</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>79</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount 4</Name>
+									<TagName>PaymentAmount04</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>91</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount 5</Name>
+									<TagName>PaymentAmount05</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>103</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount 6</Name>
+									<TagName>PaymentAmount06</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>115</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount 7</Name>
+									<TagName>PaymentAmount07</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>127</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount 8</Name>
+									<TagName>PaymentAmount08</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>139</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount 9</Name>
+									<TagName>PaymentAmount09</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>151</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount A</Name>
+									<TagName>PaymentAmountA</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>163</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount B</Name>
+									<TagName>PaymentAmountB</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>175</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount C</Name>
+									<TagName>PaymentAmountC</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>187</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount D</Name>
+									<TagName>PaymentAmountD</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>199</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount E</Name>
+									<TagName>PaymentAmountE</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>211</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount F</Name>
+									<TagName>PaymentAmountF</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>223</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Payment amount G</Name>
+									<TagName>PaymentAmountG</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>235</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Foreign country</Name>
+									<TagName>ForeignCountry</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>247</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Payee name 1</Name>
+									<TagName>PayeeName01</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>248</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Payee name 2</Name>
+									<TagName>PayeeName02</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>288</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Filler 2</Name>
+									<TagName>Filler02</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>328</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Payee mail address</Name>
+									<TagName>PayeeMailAddress</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>368</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Filler 3</Name>
+									<TagName>Filler03</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>408</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Payee city</Name>
+									<TagName>PayeeCity</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>448</StartPos>
+									<Length>40</Length>
+								</Field>
+								<Field>
+									<Name>Payee state</Name>
+									<TagName>PayeeState</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>488</StartPos>
+									<Length>2</Length>
+								</Field>
+								<Field>
+									<Name>Payee zip code</Name>
+									<TagName>PayeeZipCode</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>490</StartPos>
+									<Length>9</Length>
+								</Field>
+								<Field>
+									<Name>Filler 4</Name>
+									<TagName>Filler04</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>499</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>RecordSeqNo</Name>
+									<TagName>RecordSeqNo</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>500</StartPos>
+									<Length>8</Length>
+								</Field>
+								<Field>
+									<Name>Filler 5</Name>
+									<TagName>Filler05</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>508</StartPos>
+									<Length>36</Length>
+								</Field>
+								<Field>
+									<Name>Second TIN Notice</Name>
+									<TagName>SecondTINNotice</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>544</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Filler 6</Name>
+									<TagName>Filler06</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>545</StartPos>
+									<Length>2</Length>
+								</Field>
+								<Field>
+									<Name>Direct sales indicator</Name>
+									<TagName>DirectSalesInd</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>547</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Filler 7</Name>
+									<TagName>Filler07</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>548</StartPos>
+									<Length>115</Length>
+								</Field>
+								<Field>
+									<Name>Special data entries</Name>
+									<TagName>SpecialDataEntries</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>663</StartPos>
+									<Length>60</Length>
+								</Field>
+								<Field>
+									<Name>State income tax</Name>
+									<TagName>StateIncomeTax</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>723</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Local income tax</Name>
+									<TagName>LocalIncomeTax</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>735</StartPos>
+									<Length>12</Length>
+								</Field>
+								<Field>
+									<Name>Federal state code</Name>
+									<TagName>FederalStateCode</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>747</StartPos>
+									<Length>2</Length>
+								</Field>
+								<Field>
+									<Name>Filler 8</Name>
+									<TagName>Filler08</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>749</StartPos>
+									<Length>2</Length>
+								</Field>
+							</Fields>
+						</Record>
+						<Record>
+							<Name>Record C</Name>
+							<TagName>RecordC</TagName>
+							<MinOccur>1</MinOccur>
+							<MaxOccur>1</MaxOccur>
+							<Fields>
+								<Field>
+									<Name>Record type</Name>
+									<TagName>RecordType</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>1</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>No of payees</Name>
+									<TagName>NoOfPayees</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>2</StartPos>
+									<Length>8</Length>
+								</Field>
+								<Field>
+									<Name>Filler 1</Name>
+									<TagName>Filler01</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>10</StartPos>
+									<Length>6</Length>
+								</Field>
+								<Field>
+									<Name>Control total 1</Name>
+									<TagName>ControlTotal01</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>16</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 2</Name>
+									<TagName>ControlTotal02</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>34</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 3</Name>
+									<TagName>ControlTotal03</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>52</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 4</Name>
+									<TagName>ControlTotal04</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>70</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 5</Name>
+									<TagName>ControlTotal05</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>88</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 6</Name>
+									<TagName>ControlTotal06</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>106</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 7</Name>
+									<TagName>ControlTotal07</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>124</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 8</Name>
+									<TagName>ControlTotal08</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>142</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 9</Name>
+									<TagName>ControlTotal09</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>160</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total A</Name>
+									<TagName>ControlTotalA</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>178</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total B</Name>
+									<TagName>ControlTotalB</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>196</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total C</Name>
+									<TagName>ControlTotalC</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>214</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total D</Name>
+									<TagName>ControlTotalD</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>232</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total E</Name>
+									<TagName>ControlTotalE</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>250</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total F</Name>
+									<TagName>ControlTotalF</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>268</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total G</Name>
+									<TagName>ControlTotalG</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>286</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Filler 2</Name>
+									<TagName>Filler02</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>304</StartPos>
+									<Length>196</Length>
+								</Field>
+								<Field>
+									<Name>RecordSeqNo</Name>
+									<TagName>RecordSeqNo</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>500</StartPos>
+									<Length>8</Length>
+								</Field>
+								<Field>
+									<Name>Filler 3</Name>
+									<TagName>Filler03</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>508</StartPos>
+									<Length>241</Length>
+								</Field>
+								<Field>
+									<Name>Filler 4</Name>
+									<TagName>Filler04</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>749</StartPos>
+									<Length>2</Length>
+								</Field>
+							</Fields>
+						</Record>
+						<Record>
+							<Name>Record K</Name>
+							<TagName>RecordK</TagName>
+							<MinOccur>0</MinOccur>
+							<MaxOccur>U</MaxOccur>
+							<Fields>
+								<Field>
+									<Name>Record type</Name>
+									<TagName>RecordType</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>1</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>No of payees</Name>
+									<TagName>NoOfPayees</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>2</StartPos>
+									<Length>8</Length>
+								</Field>
+								<Field>
+									<Name>Filler 1</Name>
+									<TagName>Filler01</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>10</StartPos>
+									<Length>6</Length>
+								</Field>
+								<Field>
+									<Name>Control total 1</Name>
+									<TagName>ControlTotal01</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>16</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 2</Name>
+									<TagName>ControlTotal02</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>34</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 3</Name>
+									<TagName>ControlTotal03</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>52</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 4</Name>
+									<TagName>ControlTotal04</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>70</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 5</Name>
+									<TagName>ControlTotal05</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>88</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 6</Name>
+									<TagName>ControlTotal06</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>106</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 7</Name>
+									<TagName>ControlTotal07</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>124</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 8</Name>
+									<TagName>ControlTotal08</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>142</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total 9</Name>
+									<TagName>ControlTotal09</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>160</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total A</Name>
+									<TagName>ControlTotalA</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>178</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total B</Name>
+									<TagName>ControlTotalB</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>196</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total C</Name>
+									<TagName>ControlTotalC</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>214</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total D</Name>
+									<TagName>ControlTotalD</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>232</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total E</Name>
+									<TagName>ControlTotalE</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>250</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total F</Name>
+									<TagName>ControlTotalF</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>268</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Control total G</Name>
+									<TagName>ControlTotalG</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>286</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Filler 2</Name>
+									<TagName>Filler02</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>304</StartPos>
+									<Length>196</Length>
+								</Field>
+								<Field>
+									<Name>RecordSeqNo</Name>
+									<TagName>RecordSeqNo</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>500</StartPos>
+									<Length>8</Length>
+								</Field>
+								<Field>
+									<Name>Filler 3</Name>
+									<TagName>Filler03</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>508</StartPos>
+									<Length>199</Length>
+								</Field>
+								<Field>
+									<Name>Total income tax withheld</Name>
+									<TagName>TotalIncomeTaxWithheld</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>707</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Local income tax withheld</Name>
+									<TagName>LocalIncomeTaxWithheld</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>725</StartPos>
+									<Length>18</Length>
+								</Field>
+								<Field>
+									<Name>Filler 4</Name>
+									<TagName>Filler04</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>743</StartPos>
+									<Length>4</Length>
+								</Field>
+								<Field>
+									<Name>Federal state code</Name>
+									<TagName>FederalStateCode</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>747</StartPos>
+									<Length>2</Length>
+								</Field>
+								<Field>
+									<Name>Filler 5</Name>
+									<TagName>Filler05</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>749</StartPos>
+									<Length>2</Length>
+								</Field>
+							</Fields>
+						</Record>
+						<Record>
+							<Name>End of transmission</Name>
+							<TagName>EndOfTransmission</TagName>
+							<MinOccur>1</MinOccur>
+							<MaxOccur>1</MaxOccur>
+							<Fields>
+								<Field>
+									<Name>Record type</Name>
+									<TagName>RecordType</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>1</StartPos>
+									<Length>1</Length>
+								</Field>
+								<Field>
+									<Name>Number records A</Name>
+									<TagName>NoRecordsA</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>2</StartPos>
+									<Length>8</Length>
+								</Field>
+								<Field>
+									<Name>Zero fill</Name>
+									<TagName>ZeroFill</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>10</StartPos>
+									<Length>21</Length>
+								</Field>
+								<Field>
+									<Name>Filler 1</Name>
+									<TagName>Filler01</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>31</StartPos>
+									<Length>19</Length>
+								</Field>
+								<Field>
+									<Name>Total number payees</Name>
+									<TagName>TotalNoPayees</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>50</StartPos>
+									<Length>8</Length>
+								</Field>
+								<Field>
+									<Name>Filler 2</Name>
+									<TagName>Filler02</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>58</StartPos>
+									<Length>442</Length>
+								</Field>
+								<Field>
+									<Name>RecordSeqNo</Name>
+									<TagName>RecordSeqNo</TagName>
+									<DataType>Numeric</DataType>
+									<StartPos>500</StartPos>
+									<Length>8</Length>
+								</Field>
+								<Field>
+									<Name>Filler 3</Name>
+									<TagName>Filler03</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>508</StartPos>
+									<Length>241</Length>
+								</Field>
+								<Field>
+									<Name>Filler 4</Name>
+									<TagName>Filler04</TagName>
+									<DataType>Alpha</DataType>
+									<StartPos>749</StartPos>
+									<Length>2</Length>
+								</Field>
+							</Fields>
+						</Record>
+					</Records>
+				</Message>
+			</Messages>
+		</File>
+	</Files>
+</BankRepository>

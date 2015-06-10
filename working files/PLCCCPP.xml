@@ -1,0 +1,867 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<plcccpp xmlns:dt="urn:schemas-microsoft-com:datatypes">
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">606</invbatch> 
+    <payee>604373</payee> 
+    <supplier>604373</supplier> 
+    <supinv>65628-0001-03663</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150507</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">1700.00</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">1700.00</foreigncur> 
+    <totcharge dt:dt="number">.00</totcharge> 
+    <totaldue dt:dt="number">1700.00</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000605</vchnbr> 
+    <desc>Buhr&apos;s Trucking</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152902</entrytime> 
+    <reference>Buhr&apos;s Trucking</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">607</invbatch> 
+    <payee>387196</payee> 
+    <supplier>387196</supplier> 
+    <supinv>65636-0001-04248</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150507</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">1270.00</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">1270.00</foreigncur> 
+    <totcharge dt:dt="number">.00</totcharge> 
+    <totaldue dt:dt="number">1270.00</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000606</vchnbr> 
+    <desc>C&amp;C TRUCK LINE INC.</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152902</entrytime> 
+    <reference>C&amp;C TRUCK LINE INC.</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">608</invbatch> 
+    <payee>810046</payee> 
+    <supplier>810046</supplier> 
+    <supinv>65623-0002-04833</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150507</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">380.00</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">380.00</foreigncur> 
+    <totcharge dt:dt="number">.00</totcharge> 
+    <totaldue dt:dt="number">380.00</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000607</vchnbr> 
+    <desc>Casper Express Inc</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152902</entrytime> 
+    <reference>Casper Express Inc</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">609</invbatch> 
+    <payee>915649</payee> 
+    <supplier>915649</supplier> 
+    <supinv>65623-0001-04772</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150507</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">620.00</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">620.00</foreigncur> 
+    <totcharge dt:dt="number">.00</totcharge> 
+    <totaldue dt:dt="number">620.00</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000608</vchnbr> 
+    <desc>Texas Farm,LLC.</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152902</entrytime> 
+    <reference>Texas Farm,LLC.</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">610</invbatch> 
+    <payee>902872</payee> 
+    <supplier>902872</supplier> 
+    <supinv>65636-0001-04248</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150507</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">28169.14</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">26786.46</foreigncur> 
+    <totcharge dt:dt="number">-1382.68</totcharge> 
+    <totaldue dt:dt="number">26786.46</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000609</vchnbr> 
+    <desc>Agri Strategies, Inc.</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime> 
+    <reference>Agri Strategies, Inc.</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">611</invbatch> 
+    <payee>689282</payee> 
+    <supplier>689282</supplier> 
+    <supinv>65597-0001-06254</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150506</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">30646.93</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">30524.34</foreigncur> 
+    <totcharge dt:dt="number">-122.59</totcharge> 
+    <totaldue dt:dt="number">30524.34</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000610</vchnbr> 
+    <desc>Agri Strategies, Inc.</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime> 
+    <reference>Agri Strategies, Inc.</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">612</invbatch> 
+    <payee>689282</payee> 
+    <supplier>689282</supplier> 
+    <supinv>65628-0001-03663</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150507</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">28771.18</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">26956.09</foreigncur> 
+    <totcharge dt:dt="number">-1815.09</totcharge> 
+    <totaldue dt:dt="number">26956.09</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000611</vchnbr> 
+    <desc>Agri Strategies, Inc.</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime> 
+    <reference>Agri Strategies, Inc.</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">613</invbatch> 
+    <payee>359435</payee> 
+    <supplier>359435</supplier> 
+    <supinv>65625-0007-01392</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150507</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">269692.18</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">268613.42</foreigncur> 
+    <totcharge dt:dt="number">-1078.76</totcharge> 
+    <totaldue dt:dt="number">268613.42</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000612</vchnbr> 
+    <desc>Hitch Pork Producers, Inc.</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime> 
+    <reference>Hitch Pork Producers, Inc.</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">614</invbatch> 
+    <payee>681441</payee> 
+    <supplier>681441</supplier> 
+    <supinv>65622-0005-01183</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150507</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">161743.71</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">161096.73</foreigncur> 
+    <totcharge dt:dt="number">-646.98</totcharge> 
+    <totaldue dt:dt="number">161096.73</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000613</vchnbr> 
+    <desc>Kansas Smith Farms</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime> 
+    <reference>Kansas Smith Farms</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">615</invbatch> 
+    <payee>363813</payee> 
+    <supplier>363813</supplier> 
+    <supinv>65626-0001-04363</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150507</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">25419.26</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">25318.19</foreigncur> 
+    <totcharge dt:dt="number">-101.07</totcharge> 
+    <totaldue dt:dt="number">25318.19</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000614</vchnbr> 
+    <desc>Murphy-Brown LLC</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime> 
+    <reference>Murphy-Brown LLC</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">616</invbatch> 
+    <payee>377297</payee> 
+    <supplier>377297</supplier> 
+    <supinv>65627-0002-01164</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150507</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">61993.53</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">61745.55</foreigncur> 
+    <totcharge dt:dt="number">-247.98</totcharge> 
+    <totaldue dt:dt="number">61745.55</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000615</vchnbr> 
+    <desc>Penner Enterprises, Inc</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime> 
+    <reference>Penner Enterprises, Inc</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">617</invbatch> 
+    <payee>865311</payee> 
+    <supplier>865311</supplier> 
+    <supinv>65624-0007-01174</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150507</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">288324.50</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">287171.20</foreigncur> 
+    <totcharge dt:dt="number">-1153.30</totcharge> 
+    <totaldue dt:dt="number">287171.20</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000616</vchnbr> 
+    <desc>PRESTAGE FARMS OF OKLAHOMA LLC</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime> 
+    <reference>PRESTAGE FARMS OF OKLAHOMA LLC</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">618</invbatch> 
+    <payee>361228</payee> 
+    <supplier>361228</supplier> 
+    <supinv>65640-0082-01336</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150506</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">356546.33</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">355187.41</foreigncur> 
+    <totcharge dt:dt="number">-1358.92</totcharge> 
+    <totaldue dt:dt="number">355187.41</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000617</vchnbr> 
+    <desc>Seaboard Farms Inc.- 360</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime> 
+    <reference>Seaboard Farms Inc.- 360</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">619</invbatch> 
+    <payee>361228</payee> 
+    <supplier>361228</supplier> 
+    <supinv>65641-0035-01116</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150507</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">1966963.75</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">1959479.71</foreigncur> 
+    <totcharge dt:dt="number">-7484.04</totcharge> 
+    <totaldue dt:dt="number">1959479.71</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000618</vchnbr> 
+    <desc>Seaboard Farms Inc.- 360</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime> 
+    <reference>Seaboard Farms Inc.- 360</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">620</invbatch> 
+    <payee>386564</payee> 
+    <supplier>386564</supplier> 
+    <supinv>65623-0003-03384</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150507</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">82158.34</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">80829.71</foreigncur> 
+    <totcharge dt:dt="number">-1328.63</totcharge> 
+    <totaldue dt:dt="number">80829.71</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000619</vchnbr> 
+    <desc>Texas Farm, LLC.</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime> 
+    <reference>Texas Farm, LLC.</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">621</invbatch> 
+    <payee>422001</payee> 
+    <supplier>422001</supplier> 
+    <supinv>65629-0001-01364</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150507</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">26068.88</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">25939.80</foreigncur> 
+    <totcharge dt:dt="number">-129.08</totcharge> 
+    <totaldue dt:dt="number">25939.80</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000620</vchnbr> 
+    <desc>Tyson Foods,The Pork Group,Inc.</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152906</entrytime> 
+    <reference>Tyson Foods,The Pork Group,Inc.</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">622</invbatch> 
+    <payee>810046</payee> 
+    <supplier>810046</supplier> 
+    <supinv>65631-0002-01325</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150508</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">380.00</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">380.00</foreigncur> 
+    <totcharge dt:dt="number">.00</totcharge> 
+    <totaldue dt:dt="number">380.00</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000621</vchnbr> 
+    <desc>Casper Express Inc</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152908</entrytime> 
+    <reference>Casper Express Inc</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">623</invbatch> 
+    <payee>868133</payee> 
+    <supplier>868133</supplier> 
+    <supinv>65631-0004-07272</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150508</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">580.00</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">580.00</foreigncur> 
+    <totcharge dt:dt="number">.00</totcharge> 
+    <totaldue dt:dt="number">580.00</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000622</vchnbr> 
+    <desc>Hager Bros</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152908</entrytime> 
+    <reference>Hager Bros</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">624</invbatch> 
+    <payee>915649</payee> 
+    <supplier>915649</supplier> 
+    <supinv>65631-0001-05742</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150508</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">620.00</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">620.00</foreigncur> 
+    <totcharge dt:dt="number">.00</totcharge> 
+    <totaldue dt:dt="number">620.00</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000623</vchnbr> 
+    <desc>Texas Farm,LLC.</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152908</entrytime> 
+    <reference>Texas Farm,LLC.</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">625</invbatch> 
+    <payee>383304</payee> 
+    <supplier>383304</supplier> 
+    <supinv>65642-0099-02132</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150508</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">40.00</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">40.00</foreigncur> 
+    <totcharge dt:dt="number">.00</totcharge> 
+    <totaldue dt:dt="number">40.00</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000624</vchnbr> 
+    <desc>Pig Express</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152908</entrytime> 
+    <reference>Pig Express</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">626</invbatch> 
+    <payee>359435</payee> 
+    <supplier>359435</supplier> 
+    <supinv>65633-0005-01383</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150508</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">132215.53</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">131686.68</foreigncur> 
+    <totcharge dt:dt="number">-528.85</totcharge> 
+    <totaldue dt:dt="number">131686.68</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000625</vchnbr> 
+    <desc>Hitch Pork Producers, Inc.</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime> 
+    <reference>Hitch Pork Producers, Inc.</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">627</invbatch> 
+    <payee>681441</payee> 
+    <supplier>681441</supplier> 
+    <supinv>65630-0004-01263</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150508</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">109591.35</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">109152.98</foreigncur> 
+    <totcharge dt:dt="number">-438.37</totcharge> 
+    <totaldue dt:dt="number">109152.98</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000626</vchnbr> 
+    <desc>Kansas Smith Farms</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime> 
+    <reference>Kansas Smith Farms</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">628</invbatch> 
+    <payee>377297</payee> 
+    <supplier>377297</supplier> 
+    <supinv>65634-0001-04864</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150508</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">33120.17</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">32987.69</foreigncur> 
+    <totcharge dt:dt="number">-132.48</totcharge> 
+    <totaldue dt:dt="number">32987.69</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000627</vchnbr> 
+    <desc>Penner Enterprises, Inc</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime> 
+    <reference>Penner Enterprises, Inc</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">629</invbatch> 
+    <payee>865311</payee> 
+    <supplier>865311</supplier> 
+    <supinv>65632-0004-01353</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150508</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">328942.91</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">327627.14</foreigncur> 
+    <totcharge dt:dt="number">-1315.77</totcharge> 
+    <totaldue dt:dt="number">327627.14</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000628</vchnbr> 
+    <desc>PRESTAGE FARMS OF OKLAHOMA LLC</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime> 
+    <reference>PRESTAGE FARMS OF OKLAHOMA LLC</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">630</invbatch> 
+    <payee>361228</payee> 
+    <supplier>361228</supplier> 
+    <supinv>65641-0089-03833</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150507</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">247078.29</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">246128.29</foreigncur> 
+    <totcharge dt:dt="number">-950.00</totcharge> 
+    <totaldue dt:dt="number">246128.29</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000629</vchnbr> 
+    <desc>Seaboard Farms Inc.- 360</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime> 
+    <reference>Seaboard Farms Inc.- 360</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">631</invbatch> 
+    <payee>361228</payee> 
+    <supplier>361228</supplier> 
+    <supinv>65642-0049-01123</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150508</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">2457688.08</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">2448296.19</foreigncur> 
+    <totcharge dt:dt="number">-9391.89</totcharge> 
+    <totaldue dt:dt="number">2448296.19</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000630</vchnbr> 
+    <desc>Seaboard Farms Inc.- 360</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime> 
+    <reference>Seaboard Farms Inc.- 360</reference>
+  </viewfmt>
+  <viewfmt>
+    <company dt:dt="number">4</company> 
+    <division>360</division> 
+    <invbatch dt:dt="number">632</invbatch> 
+    <payee>386564</payee> 
+    <supplier>386564</supplier> 
+    <supinv>65631-0002-01325</supinv> 
+    <invbtchtyp>20</invbtchtyp> 
+    <invsts dt:dt="number">10</invsts> 
+    <invdte dt:dt="number">20150508</invdte> 
+    <currency></currency> 
+    <paymtrm></paymtrm> 
+    <amtnet dt:dt="number">116479.28</amtnet> 
+    <cashdiscbs dt:dt="number">.00</cashdiscbs> 
+    <foreigncur dt:dt="number">114433.37</foreigncur> 
+    <totcharge dt:dt="number">-2045.91</totcharge> 
+    <totaldue dt:dt="number">114433.37</totaldue> 
+    <invmatch>0</invmatch> 
+    <paymthd>HPE</paymthd> 
+    <vchnbrser>HPE</vchnbrser> 
+    <vchnbr dt:dt="number">1000631</vchnbr> 
+    <desc>Texas Farm, LLC.</desc> 
+    <exchrttyp dt:dt="number">0</exchrttyp> 
+    <ponbr></ponbr> 
+    <cashdisctm></cashdisctm> 
+    <getpaydft>1</getpaydft> 
+    <jobnumber>388535</jobnumber> 
+    <jobname>PLW4XFR</jobname> 
+    <entrydate dt:dt="number">20150511</entrydate> 
+    <entrytime dt:dt="number">152913</entrytime> 
+    <reference>Texas Farm, LLC.</reference>
+  </viewfmt>
+</plcccpp>

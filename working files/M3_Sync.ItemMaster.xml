@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SyncItemMaster xmlns="http://schema.infor.com/InforOAGIS/2" xmlns:udt="http://www.openapplications.org/oagis/9/unqualifieddatatypes/1.1" xmlns:oacl="http://www.openapplications.org/oagis/9/codelists" xmlns:ccts="urn:un:unece:uncefact:documentation:1.1" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:clmIANAMIMEMediaTypes="http://schema.infor.com/InforOAGIS/2/IANAMIMEMediaTypes:2003" xmlns:clm5639="http://schema.infor.com/InforOAGIS/2/languagecode/5639:1988" xmlns:clm54217="http://schema.infor.com/InforOAGIS/2/currencycode/54217:2001" xmlns:clm66411="http://schema.infor.com/InforOAGIS/2/unitcode/66411:2001" xmlns:qdt="http://www.openapplications.org/oagis/9/qualifieddatatypes/1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://schema.infor.com/InforOAGIS/2 http://schema.infor.com/2.7.0/InforOAGIS/BODs/Developer/SyncItemMaster.xsd" releaseID="9.2" versionID="2.7.0" systemEnvironmentCode="Production" languageCode="GB">
+	<ApplicationArea>
+		<Sender>
+			<LogicalID schemeVersionID="15.1.0.0">lid://infor.m3be.dev_001</LogicalID>
+			<ComponentID schemeVersionID="15.1.1">M3BE</ComponentID>
+		</Sender>
+		<CreationDateTime>2013-12-10T13:59:49.532Z</CreationDateTime>
+		<BODID>b79c86a7-d51c-496d-a71d-72fa4ce9b82f</BODID>
+	</ApplicationArea>
+	<DataArea>
+		<Sync>
+			<TenantID>001</TenantID>
+			<ActionCriteria>
+				<ActionExpression actionCode="Add"/>
+			</ActionCriteria>
+		</Sync>
+		<ItemMaster>
+			<ItemMasterHeader>
+				<ItemID>
+					<ID variationID="250130" lid="lid://infor.m3be.dev_001">M7795</ID>
+				</ItemID>
+				<ServiceIndicator>false</ServiceIndicator>
+				<Description>TEST FOR UPDATE MCODE TC</Description>
+				<Description type="Short Name">TEST FOR UPDATE MCODE TC</Description>
+				<Classification>
+					<Codes>
+						<Code sequence="1" listID="Item Groups">*</Code>
+					</Codes>
+					<Description>**Must Change**</Description>
+				</Classification>
+				<Classification>
+					<Codes>
+						<Code sequence="1" listID="Product Groups">ZRM</Code>
+					</Codes>
+					<Description>Raw Material</Description>
+				</Classification>
+				<Classification>
+					<Codes>
+						<Code sequence="1" listID="Business Sectors">ZRM</Code>
+					</Codes>
+					<Description>Raw Material</Description>
+				</Classification>
+				<Classification>
+					<Codes>
+						<Code sequence="1" listID="Item Types">RM</Code>
+					</Codes>
+					<Description>Raw Material</Description>
+				</Classification>
+				<Classification>
+					<Codes>
+						<Code sequence="1" listID="Item Classes">0</Code>
+					</Codes>
+				</Classification>
+				<TrackingIndicator>true</TrackingIndicator>
+				<ItemStatus>
+					<Code>Pending</Code>
+					<Description>Preliminary Item</Description>
+				</ItemStatus>
+				<BaseUOMCode>LB</BaseUOMCode>
+				<StorageUOMCode>LB</StorageUOMCode>
+				<LastModificationDateTime>2013-12-10T05:00:00.000Z</LastModificationDateTime>
+				<SerialControlIndicator>false</SerialControlIndicator>
+				<LotControlIndicator>false</LotControlIndicator>
+				<ConfiguredItemIndicator>false</ConfiguredItemIndicator>
+				<CatchWeightIndicator>false</CatchWeightIndicator>
+				<SellableIndicator>false</SellableIndicator>
+				<PackagingUnit>
+					<UnitCode>LB</UnitCode>
+					<NetWeightMeasure unitCode="LB">1.000</NetWeightMeasure>
+					<GrossWeightMeasure unitCode="LB">1.000</GrossWeightMeasure>
+				</PackagingUnit>
+				<ProcurementParameters>
+					<ProcurementMethodCode>Purchase</ProcurementMethodCode>
+				</ProcurementParameters>
+			</ItemMasterHeader>
+		</ItemMaster>
+	</DataArea>
+</SyncItemMaster>
