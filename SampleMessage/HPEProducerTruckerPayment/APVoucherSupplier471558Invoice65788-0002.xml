@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ProcessSBD_APVoucher xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<ApplicationArea>
+		<Sender>
+			<LogicalID>infor.seb.seaboardraw</LogicalID>
+			<ComponentID>SBD_HPE</ComponentID>
+			<TaskID>Not Used</TaskID>
+			<ConfirmationCode>OnError</ConfirmationCode>
+		</Sender>
+		<CreationDateTime>2015-06-05T12:40:26.000000000</CreationDateTime>
+		<BODID>HPE:360:47155806/05/201512:40:23.000000</BODID>
+	</ApplicationArea>
+	<DataArea>
+		<Process>
+			<TenantID>infor</TenantID>
+			<AccountingEntityID>ae1</AccountingEntityID>
+			<Location>loc1</Location>
+			<ActionCriteria>
+				<ActionExpression actionCode="Process"/>
+			</ActionCriteria>
+		</Process>
+		<SBD_APVoucher>
+			<ID logicalID="infor.seb.seaboardraw" accountingEntity="0">1008793</ID>
+			<company>1</company>
+			<division>360</division>
+			<invbatch>9699</invbatch>
+			<payee>471558</payee>
+			<supplier>471558</supplier>
+			<supplierInvoice>65788-0002</supplierInvoice>
+			<invbtchtyp>20</invbtchtyp>
+			<invstatus>10</invstatus>
+			<invdate>2015-06-03T00:00:00.000000000</invdate>
+			<currency>USD</currency>
+			<paymentTerm>N30</paymentTerm>
+			<amountNet currencyID="USD">0.000000000</amountNet>
+			<cashDiscountBasis currencyID="USD">0</cashDiscountBasis>
+			<foreignCurAmount currencyID="USD">1125.000000000</foreignCurAmount>
+			<totalCharge currencyID="USD">0</totalCharge>
+			<totalDue currencyID="USD">0.000000000</totalDue>
+			<invMatch>0</invMatch>
+			<servicecde>0</servicecde>
+			<payMethd>CHM</payMethd>
+			<vchnbrser>HPE</vchnbrser>
+			<vchnbr>1008793</vchnbr>
+			<description>A.L.A. Transportation</description>
+			<exchRateType>1</exchRateType>
+			<poNumber>          </poNumber>
+			<cashDiscTerm>   </cashDiscTerm>
+			<getPaydft>1</getPaydft>
+			<jobNumber>912377</jobNumber>
+			<jobName>PLW4XFR</jobName>
+			<entryDate>2015-06-05T00:00:00.000000000</entryDate>
+			<entryTime>83157</entryTime>
+			<reference/>
+			<exchrate>0.000000000</exchrate>
+			<tradecode>    </tradecode>
+			<vat>0.000000000</vat>
+			<acctngdt>0.000000000000000</acctngdt>
+			<authzuser>          </authzuser>
+			<duedt>0.000000000000000</duedt>
+			<futurertag>          </futurertag>
+			<frtoctry>   </frtoctry>
+			<basectry>   </basectry>
+			<orderdt>0.000000000000000</orderdt>
+			<cddt1>0.000000000000000</cddt1>
+			<cdpct1>0.000000000</cdpct1>
+			<cdamt1 currencyID="USD">0.000000000</cdamt1>
+			<cddt2>0.000000000000000</cddt2>
+			<cdpct2>0.000000000</cdpct2>
+			<cdamt2 currencyID="USD">0.000000000</cdamt2>
+			<cddt3>0.000000000000000</cddt3>
+			<cdpct3>0.000000000</cdpct3>
+			<cdamt3 currencyID="USD">0.000000000</cdamt3>
+			<tottaxamt currencyID="USD">0.000000000</tottaxamt>
+			<prepdamt currencyID="USD">0.000000000</prepdamt>
+			<vatregnbr>                </vatregnbr>
+			<taxapplc>0.000000000000000</taxapplc>
+			<documcd>   </documcd>
+			<apstddoc>   </apstddoc>
+			<dbnereas>        </dbnereas>
+			<invaddr>   </invaddr>
+			<textln1>                                                            </textln1>
+			<textln2>                                                            </textln2>
+			<textln3>                                                            </textln3>
+			<eanlocpaye>                 </eanlocpaye>
+			<eanloccnsg>                 </eanloccnsg>
+			<eanlocsupp>                 </eanlocsupp>
+			<delivdt>0.000000000000000</delivdt>
+			<bankacctid>     </bankacctid>
+			<geogrcd>0.000000000000000</geogrcd>
+			<taxincl>0.000000000000000</taxincl>
+			<originvnbr>                        </originvnbr>
+			<origyear>0.000000000000000</origyear>
+			<paymreqnbr>               </paymreqnbr>
+			<year>0.000000000000000</year>
+			<partvalidt>0.000000000000000</partvalidt>
+			<SBD_APVoucherAddlInfo>
+				<company>1</company>
+				<division>360</division>
+				<invbatch>9699</invbatch>
+				<addlcateg>412</addlcateg>
+				<addlinfo>ALA</addlinfo>
+				<infseq>1.000000000000000</infseq>
+				<textid>0.000000000000000</textid>
+				<timestamp/>
+				<entrydt>2015-06-05T00:00:00.000000000</entrydt>
+				<entrytm>83157</entrytm>
+				<changeddt>0.000000000000000</changeddt>
+				<changenbr>0.000000000000000</changenbr>
+				<changeby>ISRCENT   </changeby>
+			</SBD_APVoucherAddlInfo>
+		</SBD_APVoucher>
+	</DataArea>
+</ProcessSBD_APVoucher>
