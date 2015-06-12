@@ -286,6 +286,12 @@ public class getHeaderData_1 extends Globals {
 	 * Please describe me
 	 */
 	private void getHeaderData_1() throws Throwable {
+		/**
+		 * Please describe me
+		 */
+		String ForeignCurAmountDecimals = "";
+
+
 		// Please implement me
 		
 		oLogicalID = iLogicalID.trim();
@@ -300,9 +306,89 @@ public class getHeaderData_1 extends Globals {
 		oSUNO = iSupplier.trim();
 		oSINO = iSupplierInvoice.trim();
 		oIBTP = iInvbtchtyp.trim();
+
+		// Trim out all spaces from iInvdate
+		iInvdate = iInvdate.trim();
+		       
+		/* Check the length of the date. If the date is 22 and the 4th character is '-' then assume the format is YYYY-MM-DDThh:mm:ss.ss
+		If the date is 10 and the 4th character is '/' then assume the format is YYYY/MM/DD
+		If the date is 10 and the 4th character is '-' then assume the format is YYYY-MM-DD
+		If the date is 10 and the 2th character is '/' then assume the format is MM/DD/YYYY
+		If the date is 10 and the 2th character is '-' then assume the format is MM-DD-YYYY */
+
+
+		/* cat.info(iInvdate);
+		cat.info(iInvdate.indexOf("-"));
+		cat.info(iInvdate.length());
+		cat.info(oIVDT); */
+		
+		
+		if (iInvdate.length() >= 22 && iInvdate.indexOf("-") == 4)
+		{oIVDT = iInvdate.substring (0,4) + iInvdate.substring (5,7) + iInvdate.substring (8,10);}
+		else if (iInvdate.length() == 10 && iInvdate.indexOf("/") == 4)
+		{oIVDT = iInvdate.substring (0,4) + iInvdate.substring (5,7) + iInvdate.substring (8,10);}
+		else if (iInvdate.length() == 10 && iInvdate.indexOf("-") == 4)
+		{oIVDT = iInvdate.substring (0,4) + iInvdate.substring (5,7) + iInvdate.substring (8,10);}
+		else if (iInvdate.length() == 10 && iInvdate.indexOf("/") == 2)
+		{oIVDT = iInvdate.substring (6,10) + iInvdate.substring (0,2) + iInvdate.substring (3,5);}
+		else if (iInvdate.length() == 10 && iInvdate.indexOf("-") == 2)
+		{oIVDT = iInvdate.substring (6,10) + iInvdate.substring (0,2) + iInvdate.substring (3,5);}
+
+		
+		/* cat.info(iInvdate);
+		cat.info(iInvdate.indexOf("-"));
+		cat.info(iInvdate.length());
+		cat.info(oIVDT); */
+		
+		
+		
+		// oIVDT = iInvdate.substring (0,4) + iInvdate.substring (5,7) + iInvdate.substring (8,10);
+		
 		oCUCD = iCurrency.trim();
 		oTEPY = iPaymentTerm.trim();
-		oCUAM = iForeignCurAmount.trim();
+
+		
+		// Trim out all spaces from iForeignCurAmount
+				iForeignCurAmount = iForeignCurAmount.trim();
+
+		// check that the string has a period '.' in it (it will be -1 if it doesn't) and set ForeignCurAmountDecimals to the portion of the string which contains the period '.' and all characters after       
+		        if (iForeignCurAmount.indexOf(".") != -1){
+		            ForeignCurAmountDecimals = iForeignCurAmount.substring (iForeignCurAmount.indexOf("."),iForeignCurAmount.length());}
+		        else {
+		            ForeignCurAmountDecimals = "";}
+
+		// use the switch case to fix the number of decimals to 2 places regardless of how many decimals are coming in        
+		        switch (ForeignCurAmountDecimals.length()){
+		            case 0:
+		            oCUAM = iForeignCurAmount + ".00";
+		            break;
+		            case 1:
+		            oCUAM = iForeignCurAmount + "00";
+		            break;
+		            case 2:
+		            oCUAM = iForeignCurAmount + "0";
+		            break;
+		            case 3:
+		            oCUAM = iForeignCurAmount;
+		            break;
+		            default:
+		            oCUAM = iForeignCurAmount.substring (0,iForeignCurAmount.indexOf(".")+3);
+		            break;
+		        }
+		                
+				/* example of how to do the above switch case with the if statement 
+		        
+		        if (iForeignCurAmountDecimals.length() == 0){
+						oCUAM = iForeignCurAmount + ".00";
+		        } else if (iForeignCurAmountDecimals.length() == 1) {
+		            oCUAM = iForeignCurAmount + "00";
+		        } else if (iForeignCurAmountDecimals.length() == 2) {
+		            oCUAM = iForeignCurAmount + "0";
+				} else if (iForeignCurAmountDecimals.length() > 3) {
+						oCUAM = iForeignCurAmount.substring (0,iForeignCurAmount.indexOf(".")+3);
+		        } else {
+		            oCUAM = iForeignCurAmount;}*/	
+		
 		oIMCD = iInvMatch.trim();
 		oPYME = iPayMethd.trim();
 		oVONO = iVchnbr.trim();
@@ -313,18 +399,5 @@ public class getHeaderData_1 extends Globals {
 		oPPYR = iReference.trim();
 		oDNRE = iDbnereas.trim();
 		oSERS = "00";
-		
-		
-		
-		iInvdate = iInvdate.trim ();
-		if (iInvdate.length () > 8)
-		{
-			String YY = iInvdate.substring (0,4);
-			String MM = iInvdate.substring (5,7);
-			String DD = iInvdate.substring (8,10);
-			oIVDT = YY;
-			oIVDT = oIVDT + MM;
-			oIVDT = oIVDT + DD;
-		}
 	}
 }
