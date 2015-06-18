@@ -6,16 +6,110 @@
 				<xs:element name="ApplicationArea">
 					<xs:complexType>
 						<xs:sequence>
-							<xs:element name="Sender">
+							<xs:element name="Sender" use="optional">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element name="LogicalID" type="xs:string" />
-										<xs:element name="ComponentID" type="xs:string" />
-										<xs:element name="TaskID" type="xs:string" />
-										<xs:element name="ReferenceID" type="xs:string" />
-										<xs:element name="ConfirmationCode" type="xs:string" />
-										<xs:element name="AuthorizationID" type="xs:string" />
+										<xs:element name="LogicalID" type="xs:string" use="optional">
+											<xs:complexType>
+												<xs:attribute name="schemeID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+												<xs:attribute name="location" type="xs:string" use="optional" />
+												<xs:attribute name="variationID" type="xs:integer" use="optional" />
+												<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="ComponentID" type="xs:string" use="optional">
+											<xs:complexType>
+												<xs:attribute name="schemeID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+												<xs:attribute name="location" type="xs:string" use="optional" />
+												<xs:attribute name="variationID" type="xs:integer" use="optional" />
+												<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="TaskID" type="xs:string" use="optional">
+											<xs:complexType>
+												<xs:attribute name="schemeID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+												<xs:attribute name="location" type="xs:string" use="optional" />
+												<xs:attribute name="variationID" type="xs:integer" use="optional" />
+												<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="ReferenceID" type="xs:string" use="optional">
+											<xs:complexType>
+												<xs:attribute name="schemeID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+												<xs:attribute name="location" type="xs:string" use="optional" />
+												<xs:attribute name="variationID" type="xs:integer" use="optional" />
+												<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="ConfirmationCode" type="xs:string" use="optional">
+											<xs:complexType>
+												<xs:attribute name="schemeID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+												<xs:attribute name="location" type="xs:string" use="optional" />
+												<xs:attribute name="variationID" type="xs:integer" use="optional" />
+												<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="AuthorizationID" type="xs:string" use="optional">
+											<xs:complexType>
+												<xs:attribute name="schemeID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+												<xs:attribute name="location" type="xs:string" use="optional" />
+												<xs:attribute name="variationID" type="xs:integer" use="optional" />
+												<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+											</xs:complexType>
+										</xs:element>
 									</xs:sequence>
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="CreationDateTime" type="xs:dateTime" />
+							<xs:element name="Signature" type="xs:string" use="optional">
+								<xs:complexType>
+									<xs:attribute name="qualifyingAgencyID" type="xs:string" use="optional" />
+								</xs:complexType>
+							</xs:element>
+							<xs:element name="BODID" type="xs:string" use="optional">
+								<xs:complexType>
 									<xs:attribute name="schemeID" type="xs:string" use="optional" />
 									<xs:attribute name="schemeName" type="xs:string" use="optional" />
 									<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
@@ -29,25 +123,7 @@
 									<xs:attribute name="lid" type="xs:anyURI" use="optional" />
 								</xs:complexType>
 							</xs:element>
-							<xs:element name="CreationDateTime" type="xs:dateTime" />
-							<xs:element name="Signature" type="xs:string" />
-							<xs:element name="BODID" type="xs:string">
-								<xs:complexType>
-									<xs:sequence>
-										<xs:attribute name="schemeID" type="xs:string" use="optional" />
-										<xs:attribute name="schemeName" type="xs:string" use="optional" />
-										<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
-										<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
-										<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
-										<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
-										<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
-										<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
-										<xs:attribute name="location" type="xs:string" use="optional" />
-										<xs:attribute name="variationID" type="xs:integer" use="optional" />
-										<xs:attribute name="lid" type="xs:anyURI" use="optional" />
-									</xs:sequence>
-								</xs:complexType>
-							</xs:element>
+							<xs:element name="UserArea" type="xs:string" use="optional" />
 						</xs:sequence>
 					</xs:complexType>
 				</xs:element>
@@ -57,22 +133,285 @@
 							<xs:element name="Acknowledge">
 								<xs:complexType>
 									<xs:sequence>
-										<xs:element name="TenantID" type="xs:string" />
-										<xs:element name="AccountingEntityID" type="xs:string" />
-										<xs:element name="LocationID" type="xs:string" />
-										<xs:element name="OriginalApplicationArea" />
-										<xs:element name="ResponseCriteria">
+										<xs:element name="TenantID" type="xs:string" use="optional">
+											<xs:complexType>
+												<xs:attribute name="schemeID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+												<xs:attribute name="location" type="xs:string" use="optional" />
+												<xs:attribute name="variationID" type="xs:integer" use="optional" />
+												<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="AccountingEntityID" type="xs:string" use="optional">
+											<xs:complexType>
+												<xs:attribute name="schemeID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+												<xs:attribute name="location" type="xs:string" use="optional" />
+												<xs:attribute name="variationID" type="xs:integer" use="optional" />
+												<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="LocationID" type="xs:string" use="optional">
+											<xs:complexType>
+												<xs:attribute name="schemeID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+												<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+												<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+												<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+												<xs:attribute name="location" type="xs:string" use="optional" />
+												<xs:attribute name="variationID" type="xs:integer" use="optional" />
+												<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="OriginalApplicationArea" use="optional">
 											<xs:complexType>
 												<xs:sequence>
-													<xs:element name="ResponseExpression">
-														<xs:complexType>
-															<xs:attribute name="actionCode" type="xs:string" use="required" />
-														</xs:complexType>
-													</xs:element>
-													<xs:element name="ChangeStatus">
+													<xs:element name="Sender" use="optional">
 														<xs:complexType>
 															<xs:sequence>
-																<xs:element name="Reason" type="xs:string" />
+																<xs:element name="LogicalID" type="xs:string" use="optional">
+																	<xs:complexType>
+																		<xs:attribute name="schemeID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeName" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+																		<xs:attribute name="location" type="xs:string" use="optional" />
+																		<xs:attribute name="variationID" type="xs:integer" use="optional" />
+																		<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="ComponentID" type="xs:string" use="optional">
+																	<xs:complexType>
+																		<xs:attribute name="schemeID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeName" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+																		<xs:attribute name="location" type="xs:string" use="optional" />
+																		<xs:attribute name="variationID" type="xs:integer" use="optional" />
+																		<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="TaskID" type="xs:string" use="optional">
+																	<xs:complexType>
+																		<xs:attribute name="schemeID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeName" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+																		<xs:attribute name="location" type="xs:string" use="optional" />
+																		<xs:attribute name="variationID" type="xs:integer" use="optional" />
+																		<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="ReferenceID" type="xs:string" use="optional">
+																	<xs:complexType>
+																		<xs:attribute name="schemeID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeName" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+																		<xs:attribute name="location" type="xs:string" use="optional" />
+																		<xs:attribute name="variationID" type="xs:integer" use="optional" />
+																		<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="ConfirmationCode" type="xs:string" use="optional">
+																	<xs:complexType>
+																		<xs:attribute name="schemeID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeName" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+																		<xs:attribute name="location" type="xs:string" use="optional" />
+																		<xs:attribute name="variationID" type="xs:integer" use="optional" />
+																		<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="AuthorizationID" type="xs:string" use="optional">
+																	<xs:complexType>
+																		<xs:attribute name="schemeID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeName" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+																		<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+																		<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+																		<xs:attribute name="location" type="xs:string" use="optional" />
+																		<xs:attribute name="variationID" type="xs:integer" use="optional" />
+																		<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+																	</xs:complexType>
+																</xs:element>
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="CreationDateTime" type="xs:dateTime" />
+													<xs:element name="Signature" type="xs:string" use="optional" >
+														<xs:complexType>
+															<xs:sequence>
+																<xs:attribute name="qualifyingAgencyId" type="xs:string" use="optional" />
+															</xs:sequence>
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="BODID" type="xs:string" use="optional" >
+														<xs:complexType>
+															<xs:attribute name="schemeID" type="xs:string" use="optional" />
+															<xs:attribute name="schemeName" type="xs:string" use="optional" />
+															<xs:attribute name="schemeAgencyID" type="xs:string" use="optional" />
+															<xs:attribute name="schemeAgencyName" type="xs:string" use="optional" />
+															<xs:attribute name="schemeVersionID" type="xs:string" use="optional" />
+															<xs:attribute name="schemeDataURI" type="xs:unsignedByte" use="optional" />
+															<xs:attribute name="schemeURI" type="xs:unsignedByte" use="optional" />
+															<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+															<xs:attribute name="location" type="xs:string" use="optional" />
+															<xs:attribute name="variationID" type="xs:integer" use="optional" />
+															<xs:attribute name="lid" type="xs:anyURI" use="optional" />
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="UserArea" type="xs:string" use="optional" />
+												</xs:sequence>
+											</xs:complexType>
+										</xs:element>
+										<xs:element name="ResponseCriteria" use="optional">
+											<xs:complexType>
+												<xs:sequence>
+													<xs:element name="ResponseExpression" use="optional">
+														<xs:complexType>
+															<xs:attribute name="actionCode" type="xs:string" use="required" />
+															<xs:attribute name="expressionLanguage" type="xs:string" use="optional" />
+														</xs:complexType>
+													</xs:element>
+													<xs:element name="ChangeStatus" use="optional">
+														<xs:complexType>
+															<xs:sequence>
+																<xs:element name="Code" type="xs:string" use="optional">
+																	<xs:complexType>
+																		<xs:attribute name="listID" type="xs:string" use="optional" />
+																		<xs:attribute name="listAgencyID" type="xs:string" use="optional" />
+																		<xs:attribute name="listAgencyName" type="xs:string" use="optional" />
+																		<xs:attribute name="listName" type="xs:string" use="optional" />
+																		<xs:attribute name="listVersionID" type="xs:string" use="optional" />
+																		<xs:attribute name="name" type="xs:string" use="optional" />
+																		<xs:attribute name="languageID" type="xs:string" use="optional" />
+																		<xs:attribute name="listURI" type="xs:string" use="optional" />
+																		<xs:attribute name="listSchemeURI" type="xs:string" use="optional" />
+																		<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+																		<xs:attribute name="location" type="xs:string" use="optional" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="Description" type="xs:string" use="optional">
+																	<xs:complexType>
+																		<xs:attribute name="type" type="xs:string" use="optional" />
+																		<xs:attribute name="languageID" type="xs:string" use="optional" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="EffectiveDateTime" type="xs:string" use="optional" />
+																<xs:element name="ReasonCode" type="xs:string" use="optional">
+																	<xs:complexType>
+																		<xs:attribute name="listID" type="xs:string" use="optional" />
+																		<xs:attribute name="listAgencyID" type="xs:string" use="optional" />
+																		<xs:attribute name="listAgencyName" type="xs:string" use="optional" />
+																		<xs:attribute name="listName" type="xs:string" use="optional" />
+																		<xs:attribute name="listVersionID" type="xs:string" use="optional" />
+																		<xs:attribute name="name" type="xs:string" use="optional" />
+																		<xs:attribute name="languageID" type="xs:string" use="optional" />
+																		<xs:attribute name="listURI" type="xs:string" use="optional" />
+																		<xs:attribute name="listSchemeURI" type="xs:string" use="optional" />
+																		<xs:attribute name="accountingEntity" type="xs:string" use="optional" />
+																		<xs:attribute name="location" type="xs:string" use="optional" />
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="Reason" type="xs:string" use="optional">
+																	<xs:complexType>
+
+																		<xs:attribute name="languageID" type="xs:string" use="optional" />
+
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="StateChange" type="xs:string" use="optional">
+																	<xs:complexType>
+																		<xs:sequence>
+																			<xs:element name="FromStateCode" type="xs:string" use="optional">
+																				<xs:complexType>
+																					<xs:attribute name="listID" type="xs:string" use="optional" />
+																					<xs:attribute name="listAgencyID" type="xs:string" use="optional" />
+																					<xs:attribute name="listAgencyName" type="xs:string" use="optional" />
+																					<xs:attribute name="listName" type="xs:string" use="optional" />
+																					<xs:attribute name="listVersionID" type="xs:string" use="optional" />
+																					<xs:attribute name="name" type="xs:string" use="optional" />
+																					<xs:attribute name="languageID" type="xs:string" use="optional" />
+																					<xs:attribute name="listURI" type="xs:string" use="optional" />
+																					<xs:attribute name="listSchemeURI" type="xs:string" use="optional" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="ToStateCode" type="xs:string" use="optional">
+																				<xs:complexType>
+																					<xs:attribute name="listID" type="xs:string" use="optional" />
+																					<xs:attribute name="listAgencyID" type="xs:string" use="optional" />
+																					<xs:attribute name="listAgencyName" type="xs:string" use="optional" />
+																					<xs:attribute name="listName" type="xs:string" use="optional" />
+																					<xs:attribute name="listVersionID" type="xs:string" use="optional" />
+																					<xs:attribute name="name" type="xs:string" use="optional" />
+																					<xs:attribute name="languageID" type="xs:string" use="optional" />
+																					<xs:attribute name="listURI" type="xs:string" use="optional" />
+																					<xs:attribute name="listSchemeURI" type="xs:string" use="optional" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="ChangeDateTime" type="xs:string" use="optional" />
+																			<xs:element name="Description" type="xs:string" use="optional">
+																				<xs:complexType>
+																					<xs:attribute name="type" type="xs:string" use="optional" />
+																					<xs:attribute name="languageID" type="xs:string" use="optional" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="Note" type="xs:string" use="optional">
+																				<xs:complexType>
+																					<xs:attribute name="noteID" type="xs:string" use="optional" />
+																					<xs:attribute name="use" type="xs:string" use="optional" />
+																					<xs:attribute name="author" type="xs:string" use="optional" />
+																					<xs:attribute name="entryDateTime" type="xs:string" use="optional" />
+																					<xs:attribute name="status" type="xs:string" use="optional" />
+																					<xs:attribute name="type" type="xs:string" use="optional" />
+																					<xs:attribute name="languageID" type="xs:string" use="optional" />
+																				</xs:complexType>
+																			</xs:element>
+																			<xs:element name="UserArea" type="xs:string" use="optional" />
+																		</xs:sequence>
+																	</xs:complexType>
+																</xs:element>
+																<xs:element name="UserArea" type="xs:string" use="optional" />
 															</xs:sequence>
 														</xs:complexType>
 													</xs:element>
