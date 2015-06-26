@@ -204,6 +204,6 @@ org.eclipse.ui.workbench.source,3.104.0.v20130204-164612,file:/C:/Users/paulbo/D
 org.eclipse.ui.workbench.texteditor.source,3.8.0.v20120523-1310,file:/C:/Users/paulbo/Desktop/MECDeveloperTools/mapper-base-11.4.2.v201401171217-win64/plugins/org.eclipse.ui.workbench.texteditor.source_3.8.0.v20120523-1310.jar,-1,false
 org.eclipse.update.configurator.source,3.3.200.v20120912-144026,file:/C:/Users/paulbo/Desktop/MECDeveloperTools/mapper-base-11.4.2.v201401171217-win64/plugins/org.eclipse.update.configurator.source_3.3.200.v20120912-144026.jar,-1,false
 org.hamcrest.core.source,1.1.0.v20090501071000,file:/C:/Users/paulbo/Desktop/MECDeveloperTools/mapper-base-11.4.2.v201401171217-win64/plugins/org.hamcrest.core.source_1.1.0.v20090501071000.jar,-1,false
-org.junit.source,3.8.2.v3_8_2_v20100427-1100,file:/C:/Users/paulbo/Desktop/MECDeveloperTools/mapper-base-11.4.2.v201401171217-win64/plugins/org.junit.source_3.8.2.v3_8_2_v20100427-1100.jar,-1,false
 org.junit.source,4.10.0.v4_10_0_v20120426-0900,file:/C:/Users/paulbo/Desktop/MECDeveloperTools/mapper-base-11.4.2.v201401171217-win64/plugins/org.junit.source_4.10.0.v4_10_0_v20120426-0900.jar,-1,false
+org.junit.source,3.8.2.v3_8_2_v20100427-1100,file:/C:/Users/paulbo/Desktop/MECDeveloperTools/mapper-base-11.4.2.v201401171217-win64/plugins/org.junit.source_3.8.2.v3_8_2_v20100427-1100.jar,-1,false
 org.objectweb.asm.source,3.3.1.v201105211655,file:/C:/Users/paulbo/Desktop/MECDeveloperTools/mapper-base-11.4.2.v201401171217-win64/plugins/org.objectweb.asm.source_3.3.1.v201105211655.jar,-1,false

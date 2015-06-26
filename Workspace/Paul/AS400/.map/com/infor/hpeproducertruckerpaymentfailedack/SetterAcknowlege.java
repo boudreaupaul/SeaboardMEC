@@ -24,27 +24,7 @@ public class SetterAcknowlege extends Globals {
 	/**
 	 * Please describe me
 	 */
-	private String iLogicalID;
-
-	/**
-	 * Please describe me
-	 */
-	private String iComponentID;
-
-	/**
-	 * Please describe me
-	 */
-	private String iCreationDateTime;
-
-	/**
-	 * Please describe me
-	 */
 	private String iTenantID;
-
-	/**
-	 * Please describe me
-	 */
-	private String iBODID;
 
 	/**
 	 * Please describe me
@@ -54,52 +34,7 @@ public class SetterAcknowlege extends Globals {
 	/**
 	 * Please describe me
 	 */
-	private String iID;
-
-	/**
-	 * Please describe me
-	 */
-	private String iCompany;
-
-	/**
-	 * Please describe me
-	 */
-	private String iDivision;
-
-	/**
-	 * Please describe me
-	 */
-	private String iInvbatch;
-
-	/**
-	 * Please describe me
-	 */
-	private String iPayee;
-
-	/**
-	 * Please describe me
-	 */
-	private String iSupplier;
-
-	/**
-	 * Please describe me
-	 */
-	private String iSupplierInvoice;
-
-	/**
-	 * Please describe me
-	 */
-	private String oLogicalID;
-
-	/**
-	 * Please describe me
-	 */
-	private String oComponentID;
-
-	/**
-	 * Please describe me
-	 */
-	private String oCreationDateTime;
+	private String iCorrelationID;
 
 	/**
 	 * Please describe me
@@ -109,47 +44,47 @@ public class SetterAcknowlege extends Globals {
 	/**
 	 * Please describe me
 	 */
-	private String oBODID;
-
-	/**
-	 * Please describe me
-	 */
 	private String oActionCode;
 
 	/**
 	 * Please describe me
 	 */
-	private String oID;
+	private String oAccountingEntityID;
 
 	/**
 	 * Please describe me
 	 */
-	private String oCompany;
+	private String oLocationID;
 
 	/**
 	 * Please describe me
 	 */
-	private String oDivision;
+	private String oLogicalID;
 
 	/**
 	 * Please describe me
 	 */
-	private String oInvbatch;
+	private String oLogicalID_schemeVersionID;
 
 	/**
 	 * Please describe me
 	 */
-	private String oPayee;
+	private String oComponentID;
 
 	/**
 	 * Please describe me
 	 */
-	private String oSupplier;
+	private String oComponentID_schemeVersionID;
 
 	/**
 	 * Please describe me
 	 */
-	private String oSupplierInvoice;
+	private String oCreationDateTime;
+
+	/**
+	 * Please describe me
+	 */
+	private String oBODID;
 
 	// ----------------------------------------------------------------------------------- 
 	// PLEASE REMEMBER:
@@ -161,19 +96,22 @@ public class SetterAcknowlege extends Globals {
 	 * Please describe me
 	 */
 	private void setterAcknowlege() throws Throwable {
-		// Please implement me
-		oLogicalID = iLogicalID.trim();
-		oComponentID = iComponentID.trim();
-		oCreationDateTime = iCreationDateTime.trim();
 		oTenantID = iTenantID.trim();
-		oBODID = iBODID.trim();
+		
+    	// Set original ApplicationArea
+    	IONApplicationArea aa = new IONApplicationArea(myMap, iCorrelationID);
+    	aa.get();
+    	oLogicalID = aa.getValue("Sender/LogicalID");
+    	oLogicalID_schemeVersionID = aa.getValue("Sender/LogicalID@schemeVersionID");
+    	oComponentID = aa.getValue("Sender/ComponentID");
+    	oComponentID_schemeVersionID = aa.getValue("Sender/ComponentID@schemeVersionID");
+    	oCreationDateTime = aa.getValue("CreationDateTime");
+    	oBODID = aa.getValue("BODID");
+    	aa.remove();
+    	
+
+		
+		
 		oActionCode = iActionCode.trim();
-		oID = iID.trim();
-		oCompany = iCompany.trim();
-		oDivision = iDivision.trim();
-		oInvbatch = iInvbatch.trim();
-		oPayee = iPayee.trim();
-		oSupplier = iSupplier.trim();
-		oSupplierInvoice = iSupplierInvoice.trim();
 	}
 }

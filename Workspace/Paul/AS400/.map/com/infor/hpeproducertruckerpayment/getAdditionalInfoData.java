@@ -7,7 +7,7 @@
 // Thank You!
 // ----------------------------------------------------------------------------------------------
 
-//MECID=getAdditionalInfoData
+//MECID=FID6
 package com.infor.hpeproducertruckerpayment;
 
 import org.apache.log4j.*;

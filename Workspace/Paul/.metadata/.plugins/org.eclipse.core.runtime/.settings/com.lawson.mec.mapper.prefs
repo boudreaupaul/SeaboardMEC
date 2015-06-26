@@ -2,4 +2,5 @@ MEC_TYPE_DEF_LIST/DataTranslator/MEC_TYPD_DEF_ENTRY_DEF=1,Infor Added
 MEC_TYPE_DEF_LIST/NewType/MEC_TYPD_DEF_ENTRY_DEF=3,Please describe me
 MEC_TYPE_DEF_LIST/Object/MEC_TYPD_DEF_ENTRY_DEF=2,Infor Added
 MEC_TYPE_DEF_LIST/SortingStructure/MEC_TYPD_DEF_ENTRY_DEF=0,Infor Added
+MEC_TYPE_DEF_LIST/java.util.Map<String,\ String>/MEC_TYPD_DEF_ENTRY_DEF=4,Please describe me
 eclipse.preferences.version=1

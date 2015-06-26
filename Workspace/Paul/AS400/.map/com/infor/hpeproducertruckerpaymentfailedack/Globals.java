@@ -168,5 +168,29 @@ public class Globals extends com.intentia.ec.mapper.Mapping {
 	 */
 	protected String ActionCodeRejected = IONToolbox.ACTION_CODE_REJECTED;
 
+
+	/**
+	 * Please describe me
+	 */
+	protected String CorrelationID = "";
+
+
+	/**
+	 * Please describe me
+	 */
+	protected DataTranslator dt = null;
+
+
+	/**
+	 * Please describe me
+	 */
+	protected DataTranslator dtGen = null;
+
+
+	/**
+	 * Please describe me
+	 */
+	protected final Object myMap = this;
+
 	public void mapMain() {}
 }

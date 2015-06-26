@@ -20,24 +20,6 @@ public class Globals extends com.intentia.ec.mapper.Mapping {
 
 
 	/**
-	 * User, size is 10, type is Alpha
-	 */
-	protected String ZZUSID = "";
-
-
-	/**
-	 * Company, size is 3, type is Numeric
-	 */
-	protected String ZDCONO = "";
-
-
-	/**
-	 * Division, size is 3, type is Alpha
-	 */
-	protected String ZDDIVI = "";
-
-
-	/**
 	 * Facility, size is 3, type is Alpha
 	 */
 	protected String ZDFACI = "";
@@ -254,7 +236,7 @@ public class Globals extends com.intentia.ec.mapper.Mapping {
 
 
 	/**
-	 * Invoice batch number, size is 10, type is Numeric
+	 * 
 	 */
 	protected String INBN = "";
 
@@ -275,6 +257,60 @@ public class Globals extends com.intentia.ec.mapper.Mapping {
 	 * Please describe me
 	 */
 	protected String ACTION_CODE_ACCEPTED = IONToolbox.ACTION_CODE_ACCEPTED;
+
+
+	/**
+	 * DataTranslator instance
+	 */
+	protected DataTranslator dt = null;
+
+
+	/**
+	 * Generic DataTranslator instance
+	 */
+	protected DataTranslator dtGen = null;
+
+
+	/**
+	 * Please describe me
+	 */
+	protected String CorrelationID = "";
+
+
+	/**
+	 * User, size is 10, type is Alpha
+	 */
+	protected String ZZUSID = "";
+
+
+	/**
+	 * Company, size is 3, type is Numeric
+	 */
+	protected String ZDCONO = "";
+
+
+	/**
+	 * Division, size is 3, type is Alpha
+	 */
+	protected String ZDDIVI = "";
+
+
+	/**
+	 * Please describe me
+	 */
+	protected final Object myMap = this;
+
+
+	/**
+	 * Accounting date, size is 10, type is Alpha
+	 */
+	protected String ACDT = "";
+
+
+	/**
+	 * Authorized user, size is 10, type is Alpha
+	 */
+	protected String APCD = "";
 
 	public void mapMain() {}
 }

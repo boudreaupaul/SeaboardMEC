@@ -7,7 +7,7 @@
 // Thank You!
 // ----------------------------------------------------------------------------------------------
 
-//MECID=FID3
+//MECID=FID4
 package com.infor.hpeproducertruckerpayment;
 
 import org.apache.log4j.*;
@@ -144,6 +144,16 @@ public class getHeaderData_1 extends Globals {
 	/**
 	 * Please describe me
 	 */
+	private String iAcctngDt;
+
+	/**
+	 * Please describe me
+	 */
+	private String iAuthzUser;
+
+	/**
+	 * Please describe me
+	 */
 	private String iDbnereas;
 
 	/**
@@ -269,6 +279,16 @@ public class getHeaderData_1 extends Globals {
 	/**
 	 * Please describe me
 	 */
+	private String oACDT;
+
+	/**
+	 * Please describe me
+	 */
+	private String oAPCD;
+
+	/**
+	 * Please describe me
+	 */
 	private String oDNRE;
 
 	/**
@@ -291,24 +311,27 @@ public class getHeaderData_1 extends Globals {
 		 */
 		String ForeignCurAmountDecimals = "";
 
-
+		cat.info(strUUID + "[:] " + getClass().getName() + " iInvDate: ‘" + iInvdate + "'");
+		
+		
+				
 		// Please implement me
 		
-		oLogicalID = iLogicalID.trim();
-		oComponentID = iComponentID.trim();
-		oCreationDateTime = iCreationDateTime.trim();
-		oBODID = iBODID.trim();
-		oTenantID = iTenantID.trim();
-		oID = iID.trim();
-		oCONO = iCompany.trim();
-		oDIVI = iDivision.trim();
-		oSPYN = iPayee.trim();
-		oSUNO = iSupplier.trim();
-		oSINO = iSupplierInvoice.trim();
-		oIBTP = iInvbtchtyp.trim();
+		if (iLogicalID == null){oLogicalID = "";} else {oLogicalID = iLogicalID.trim();}
+		if (iComponentID == null){oComponentID = "";} else {oComponentID = iComponentID.trim();}
+		if (iCreationDateTime == null){oCreationDateTime = "";} else {oCreationDateTime = iCreationDateTime.trim();}
+		if (iBODID == null){oBODID = "";} else {oBODID = iBODID.trim();}
+		if (iTenantID == null){oTenantID = "";} else {oTenantID = iTenantID.trim();}
+		if (iID == null){oID = "";} else {oID = iID.trim();}
+		if (iCompany == null){oCONO = "";} else {oCONO = iCompany.trim();}
+		if (iDivision == null){oDIVI = "";} else {oDIVI = iDivision.trim();}
+		if (iPayee == null){oSPYN = "";} else {oSPYN = iPayee.trim();}
+		if (iSupplier == null){oSUNO = "";} else {oSUNO = iSupplier.trim();}
+		if (iSupplierInvoice == null){oSINO = "";} else {oSINO = iSupplierInvoice.trim();}
+		if (iInvbtchtyp == null){oIBTP = "";} else {oIBTP = iInvbtchtyp.trim();}
 
 		// Trim out all spaces from iInvdate
-		iInvdate = iInvdate.trim();
+		if (iInvdate == null){iInvdate = "";} else {iInvdate = iInvdate.trim();}
 		       
 		/* Check the length of the date. If the date is 22 and the 4th character is '-' then assume the format is YYYY-MM-DDThh:mm:ss.ss
 		If the date is 10 and the 4th character is '/' then assume the format is YYYY/MM/DD
@@ -344,12 +367,12 @@ public class getHeaderData_1 extends Globals {
 		
 		// oIVDT = iInvdate.substring (0,4) + iInvdate.substring (5,7) + iInvdate.substring (8,10);
 		
-		oCUCD = iCurrency.trim();
-		oTEPY = iPaymentTerm.trim();
+		if (iCurrency == null){oCUCD = "";} else {oCUCD = iCurrency.trim();}
+		if (iPaymentTerm == null){oTEPY = "";} else {oTEPY = iPaymentTerm.trim();}
 
 		
 		// Trim out all spaces from iForeignCurAmount
-				iForeignCurAmount = iForeignCurAmount.trim();
+		if (iForeignCurAmount == null){iForeignCurAmount = "";} else {iForeignCurAmount = iForeignCurAmount.trim();}
 
 		// check that the string has a period '.' in it (it will be -1 if it doesn't) and set ForeignCurAmountDecimals to the portion of the string which contains the period '.' and all characters after       
 		        if (iForeignCurAmount.indexOf(".") != -1){
@@ -389,15 +412,27 @@ public class getHeaderData_1 extends Globals {
 		        } else {
 		            oCUAM = iForeignCurAmount;}*/	
 		
-		oIMCD = iInvMatch.trim();
-		oPYME = iPayMethd.trim();
-		oVONO = iVchnbr.trim();
-		oCRTP = iExchRateType.trim();
-		oPUNO = iPoNumber.trim();
-		oTECD = iCashDiscTerm.trim();
-		oGPDF = iGetPaydft.trim();
-		oPPYR = iReference.trim();
-		oDNRE = iDbnereas.trim();
+		        if (iInvMatch == null){oIMCD = "";} else {oIMCD = iInvMatch.trim();}
+		        if (iPayMethd == null){oPYME = "";} else {oPYME = iPayMethd.trim();}
+		        if (iVchnbr == null){oVONO = "";} else {oVONO = iVchnbr.trim();}
+		        if (iExchRateType == null){oCRTP = "";} else {oCRTP = iExchRateType.trim();}
+		        if (iPoNumber == null){oPUNO = "";} else {oPUNO = iPoNumber.trim();}
+		        if (iCashDiscTerm == null){oTECD = "";} else {oTECD = iCashDiscTerm.trim();}
+		        if (iGetPaydft == null){oGPDF = "";} else {oGPDF = iGetPaydft.trim();}
+		        if (iReference == null){oPPYR = "";} else {oPPYR = iReference.trim();}
+		        if (iDbnereas == null){oDNRE = "";} else {oDNRE = iDbnereas.trim();}
 		oSERS = "00";
+		
+		// if date is formated "20150625.000000000000000" then trim off the characters from the period till the end
+		
+		if (iAcctngDt == null){iAcctngDt = "";} else {iAcctngDt = iAcctngDt.trim();}
+		if (iAcctngDt.length() > 8 && iAcctngDt.indexOf(".") == 8)
+		{oACDT = iAcctngDt.substring (0,8);}
+		else {
+			oACDT = iAcctngDt;
+		}
+		
+			
+		if (iAuthzUser == null){oAPCD = "";} else {oAPCD = iAuthzUser.trim();}
 	}
 }
