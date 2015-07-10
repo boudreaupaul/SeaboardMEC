@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="SyncGLTrialBalance">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="sqle36638">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ApplicationArea">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Sender">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="LogicalID" type="xs:string" />
+                          <xs:element name="ComponentID" type="xs:string" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="CreationDateTime" type="xs:dateTime" />
+                    <xs:element name="BODID" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="DataArea">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Sync">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="TenantID" type="xs:unsignedByte" />
+                          <xs:element name="LocationID" type="xs:unsignedByte" />
+                          <xs:element name="ActionCriteria">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="ActionExpression">
+                                  <xs:complexType>
+                                    <xs:attribute name="actionCode" type="xs:string" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="GLTrialBalance">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="GLTrialBalanceHeader">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="viewfmt">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="company" type="xs:unsignedByte" />
+                                      <xs:element name="division" type="xs:unsignedShort" />
+                                      <xs:element name="keyValue" type="xs:unsignedInt" />
+                                      <xs:element name="interface" type="xs:string" />
+                                      <xs:element name="description" type="xs:string" />
+                                      <xs:element name="status" type="xs:unsignedByte" />
+                                      <xs:element name="testIdentity" type="xs:unsignedByte" />
+                                      <xs:element name="changeNumber" type="xs:unsignedByte" />
+                                      <xs:element name="MGLChangeDate" type="xs:unsignedByte" />
+                                      <xs:element name="EntryDate" type="xs:unsignedInt" />
+                                      <xs:element name="RSChangeDate" type="xs:unsignedByte" />
+									  <xs:element name="RecordStatus" type="xs:string" />
+									  <xs:element name="Job" type="xs:string" />
+									  <xs:element name="Program" type="xs:string" />
+									  <xs:element name="UserAdded" type="xs:string" />
+									  <xs:element name="ProcessStatus" type="xs:string" />
+									  <xs:element name="ProcessDate" type="xs:string" />
+									  <xs:element name="ProcessTime" type="xs:string" />
+                                      <xs:element name="userChanged" type="xs:string" />
+                                      <xs:element name="DateAdded" type="xs:unsignedInt" />
+                                      <xs:element name="TimeAdded" type="xs:unsignedInt" />
+                                      <xs:element name="TimeChanged" type="xs:unsignedByte" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="GLTrialBalanceDetail">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element maxOccurs="unbounded" name="viewfmt">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="company" type="xs:unsignedByte" />
+                                      <xs:element name="division" type="xs:unsignedShort" />
+                                      <xs:element name="keyValue" type="xs:unsignedInt" />
+                                      <xs:element name="lineNumber" type="xs:unsignedByte" />
+                                      <xs:element name="parmValue" type="xs:string" />
+                                      <xs:element name="status" type="xs:unsignedByte" />
+                                      <xs:element name="TextIdentity" type="xs:unsignedByte" />
+                                      <xs:element name="ChangeNumber" type="xs:unsignedByte" />
+                                      <xs:element name="EntryDate" type="xs:unsignedInt" />
+                                      <xs:element name="ChangeDate" type="xs:unsignedByte" />
+                                      <xs:element name="DateChanged" type="xs:unsignedByte" />
+                                      <xs:element name="UserChanged" type="xs:string" />
+									  <xs:element name="RecordStatus" type="xs:string" />
+									  <xs:element name="Job" type="xs:string" />
+									  <xs:element name="UserAdded" type="xs:string" />
+                                      <xs:element name="DateAdded" type="xs:unsignedInt" />
+                                      <xs:element name="TimeAdded" type="xs:unsignedInt" />
+                                      <xs:element name="Program" type="xs:string" />
+                                      <xs:element name="TimeChanged" type="xs:unsignedByte" />
+                                    </xs:sequence>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="releaseID" type="xs:decimal" use="required" />
+      <xs:attribute name="languageCode" type="xs:string" use="required" />
+      <xs:attribute name="systemEnvironmentCode" type="xs:string" use="required" />
+      <xs:attribute name="versionID" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
